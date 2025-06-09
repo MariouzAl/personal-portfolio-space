@@ -1,6 +1,7 @@
 import { PortfolioSection, AboutSection, HeroSection, ResumeSection, SkillSection, StatsSection } from "../sections";
 import useScrollSpy from "../hooks/useScrollSpy";
 import ServicesSection from "../sections/ServicesSection";
+import TestimonialSection from "../sections/TestimonialSection";
 
 const MainContent = ({ onSectionChange }: { onSectionChange: (section: string) => void }) => {
     const { sectionRefs } = useScrollSpy(onSectionChange);
@@ -14,7 +15,7 @@ const MainContent = ({ onSectionChange }: { onSectionChange: (section: string) =
             <ResumeSection ref={(el) => { sectionRefs.current["resume"] = el }} id="resume" />
             <PortfolioSection ref={(el) => { sectionRefs.current["portfolio"] = el }} id="portfolio" />
             <ServicesSection  ref={(el) => { sectionRefs.current["services"] = el }} id="services" />
-            {/* <TestimonialSection ref={(el) => { sectionRefs.current["testimonial"] = el }} id="testimonial" /> */}
+            <TestimonialSection ref={(el) => { sectionRefs.current["testimonial"] = el }} id="testimonial" />
         </main>
     );
 };
