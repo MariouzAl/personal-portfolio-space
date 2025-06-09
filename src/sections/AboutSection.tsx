@@ -16,7 +16,7 @@ const AboutSection = forwardRef<HTMLElement, { id: string }>((props, ref) => {
 
                 <div className="flex flex-col items-center justify-center sm:flex-row ">
                     <div className="size-full lg:flex-1/3 sm:px-3">
-                        <img src="/img/my-profile-img.jpeg" className="size-full" alt="" />
+                        <img src="./img/my-profile-img.jpeg" className="size-full" alt="" />
                     </div>
                     <div className="mt-5 lg:flex-2/3">
                         <h2 className="font-bold text-2xl font-raleway">Fullstack Developer.</h2>
