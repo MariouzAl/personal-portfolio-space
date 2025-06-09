@@ -21,7 +21,7 @@ const NavBar = ({selectedSection}:{selectedSection:string}) => {
   return (
     <header id="header" className={`header dark-background  flex-column lg:left-0 ${isOpen? "left-0":"-left-full"} `}>
       <NavBarToggleButton isOpen={isOpen} onToggleOpen={onToggleOpen} ></NavBarToggleButton>
-      <Avatar alt="Profile avatar image for Mario Rivera" size={30} src="/img/my-profile-img.jpeg" title="Mario Rivera"></Avatar>
+      <Avatar alt="Profile avatar image for Mario Rivera" size={30} src="./img/my-profile-img.jpeg" title="Mario Rivera"></Avatar>
       <SocialLinks></SocialLinks>
       <NavMenu selectedSection={selectedSection} onNavChanges={onNavChanges}></NavMenu>
       <TopScroll onClick={onNavChanges} selectedSection={selectedSection} ></TopScroll>
