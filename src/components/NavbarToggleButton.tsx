@@ -5,7 +5,7 @@ const NavBarToggleButton = ({onToggleOpen,isOpen }:{onToggleOpen:(isOpen:boolean
         onToggleOpen(!isOpen);
     }
 
-    return <i  className={`nav-bar-toggle bi ${isOpen ? 'bi-x': 'bi-list'} md:hidden`}
+    return <i  className={`nav-bar-toggle bi ${isOpen ? 'bi-x': 'bi-list'} lg:hidden`}
     onClick={onClickHandler}
     ></i>;
 }
