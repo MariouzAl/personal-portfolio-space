@@ -36,7 +36,7 @@ const PortfolioModal = ({ isOpen,
         <div className="fixed inset-0 flex items-center justify-center  bg-black  z-[999]  bg-blend-overlay" >
             <div className={`modal-content transition-all duration-300 ease-out transform ${animation}`}>
 
-                <img className="min-[200px] max-h-[calc(100vh-85px)]" src="src/assets/img/portfolio_thumbnail.png" alt="" />
+                <img className="min-[200px] max-h-[calc(100vh-85px)]" src="/img/portfolio_thumbnail.png" alt="" />
                 <div className="h-auto w-full absolute bottom-0 py-5 px-2.5 order-2 max-h-[78vh] overflow-auto pb-12">
                     <div className="py-6 px-5">
                         <h4 className="text-white text-base font-medium mb-5 leading-5 capitalize">{title}</h4>

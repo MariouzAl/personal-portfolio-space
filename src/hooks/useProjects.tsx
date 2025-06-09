@@ -5,15 +5,15 @@ const PORTFOLIO_DATA = [
         id: 1,
         title: "lorem ipsum",
         description: "App",
-        link: "assets/img/portfolio/app1.jpg",
+        link: "/img/portfolio/app1.jpg",
         category: "Apps"
     },
     {
         id: 2,
         title: "App 2",
         description: "App",
-        image: "src/assets/img/portfolio_thumbnail.png",
-        link: "assets/img/portfolio/app1.jpg",
+        image: "/img/portfolio_thumbnail.png",
+        link: "/portfolio/app1.jpg",
         category: "Projects"
     },
     {
@@ -21,7 +21,7 @@ const PORTFOLIO_DATA = [
         title: "Project 1",
         description: "Project",
         
-        link: "assets/img/portfolio/app1.jpg",
+        link: "/img/portfolio/app1.jpg",
         category: "Projects"
     },
     {
@@ -29,7 +29,7 @@ const PORTFOLIO_DATA = [
         title: "Branding 1",
         description: "Branding",
         
-        link: "assets/img/portfolio/app1.jpg",
+        link: "/img/portfolio/app1.jpg",
         category: "Branding"
     },
 ];
