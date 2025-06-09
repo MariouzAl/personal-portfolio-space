@@ -12,7 +12,7 @@ const PORTFOLIO_DATA = [
         id: 2,
         title: "App 2",
         description: "App",
-        image: "/img/portfolio_thumbnail.png",
+        image: "./img/portfolio_thumbnail.png",
         link: "/portfolio/app1.jpg",
         category: "Projects"
     },
