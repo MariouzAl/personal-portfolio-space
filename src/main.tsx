@@ -7,8 +7,8 @@ import AutoIncrementCounter from './components/Counter.tsx'
 
 
 const router=createBrowserRouter([
-  {path:'/',element:<App/> , errorElement:<div>404</div>},
-  {path:'/counter',element:<AutoIncrementCounter/> , errorElement:<div className='text-white'>404</div>},
+  {path:'/',element:<App/> , errorElement:<div className='text-white'>404 NOT FOUND </div>},
+  {path:'/counter',element:<AutoIncrementCounter/>},
 ])
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
