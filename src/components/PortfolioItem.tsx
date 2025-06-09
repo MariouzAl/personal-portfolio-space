@@ -8,7 +8,7 @@ export type PortfolioItemType = {
 }
 
 const PortfolioItem = ({ item, onSelectedPortFolioItem }: {item:PortfolioItemType}&{onSelectedPortFolioItem:(item:PortfolioItemType)=>void}) => {
-    const {title, description, link, image = "/img/portfolio_thumbnail.png", category} = item
+    const {title, description, link, image = "./img/portfolio_thumbnail.png", category} = item
     return (
         <div className="group h-full overflow-hidden relative ">
             <img src={image} className="w-full h-auto group-hover:scale-110 transition-all duration-300"  alt="" />
