@@ -1,36 +1,46 @@
+# .github/workflows/deploy.yml
+
 name: Deploy to GitHub Pages
-permissions:
-  contents: write
+
 on:
   push:
     branches:
-      - main
+      - main # Ejecuta el workflow cada vez que se haga push a la rama 'main'
+
+permissions:
+  contents: write # Permite que el token de GITHUB_TOKEN escriba en el repositorio
+  pages: write    # Permite que el token escriba en GitHub Pages (para el entorno)
+  id-token: write # Permite que el token se use para OIDC (OpenID Connect)
 
 jobs:
   build-and-deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest # Ejecuta el job en un ambiente Ubuntu
+    environment:
+      name: github-pages # Define el entorno de despliegue para GitHub Pages
+      url: ${{ steps.deployment.outputs.page_url }} # URL del sitio desplegado
 
     steps:
-      - name: Checkout code
+      - name: Checkout # Paso para clonar el repositorio
         uses: actions/checkout@v4
 
-      - name: Set up Node.js
+      - name: Setup Node.js # Paso para configurar Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '20' # Usa la versión de Node.js que tu proyecto requiera
 
-      - name: Install dependencies
+      - name: Install dependencies # Paso para instalar las dependencias del proyecto
         run: npm ci
 
-      - name: Build project
-        run: npm run build
+      - name: Build project # Paso para construir el proyecto Vite
+        run: npm run build # Este comando ejecuta el script 'build' de tu package.json
 
-      - name: Deploy
+      - name: Deploy to GitHub Pages # Paso para desplegar usando peaceiris/actions-gh-pages
+        id: deployment # Asigna un ID al paso para referenciarlo más tarde
         uses: peaceiris/actions-gh-pages@v4
-        # If you're changing the branch from main,
-        # also change the `main` in `refs/heads/main`
-        # below accordingly.
-        if: github.ref == 'refs/heads/main'
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+          github_token: ${{ secrets.GITHUB_TOKEN }} # El token automático de GitHub Actions
+          publish_dir: ./dist # Directorio que contiene los archivos construidos por Vite
+          publish_branch: gh-pages # La rama donde se desplegará el sitio
+          cname: '' # Deja esto vacío si no usas un dominio personalizado, o pon tu dominio aquí
+          # Añade esta línea para tener un historial de commits limpio en la rama gh-pages
+          force_orphan: true
