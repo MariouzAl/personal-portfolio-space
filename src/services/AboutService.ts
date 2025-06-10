@@ -117,7 +117,11 @@ export class AboutService {
       "ace.mrivera@gmail.com",
       "Available",
       "Engineer",
-      "I am a software engineer with over 10 years of experience in web development. I have a strong background in JavaScript, TypeScript, and various frameworks such as React and Angular. I am passionate about building scalable and maintainable applications."
+      `I am a software engineer with over 10 years of experience in web development. I have a strong background in JavaScript, TypeScript, and various frameworks such as React and Angular. 
+      I'm passionate about building scalable and maintainable applications I like to imagine and creating proposals for different projects.
+      I started as a young Freelance Developer and later evolved into a young entrepreneur leading my own development team, working mostly for a International Logistics and Trade Company based on Veracruz city, called Grupo CICE, as one of their main mobile develpment providers.  
+      In a not so long future I want to become a Software Architech
+      `
     );
   }
   getPerson(): Person {
