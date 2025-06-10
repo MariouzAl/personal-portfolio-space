@@ -34,6 +34,12 @@ const MENU_ITEMS:MenuItem[] = [{
     label: 'Services',
     link: '#services',
 }, {
+    id: 'passions',
+    icon: 'bi-battery-full',
+    label: 'Passions',
+    link: '#passions',
+},
+ {
     id: 'contact',
     icon: 'bi-envelope',
     label: 'Contact',

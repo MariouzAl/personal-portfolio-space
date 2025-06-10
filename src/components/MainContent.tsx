@@ -28,7 +28,7 @@ const MainContent = ({ onSectionChange }: { onSectionChange: (section: string) =
             <ResumeSection ref={(el) => { sectionRefs.current["resume"] = el }} id="resume" />
             <PortfolioSection ref={(el) => { sectionRefs.current["portfolio"] = el }} id="portfolio" />
             <ServicesSection ref={(el) => { sectionRefs.current["services"] = el }} id="services" />
-            <TestimonialSection ref={(el) => { sectionRefs.current["testimonial"] = el }} id="testimonial" />
+            {/* <TestimonialSection ref={(el) => { sectionRefs.current["testimonial"] = el }} id="testimonial" /> */}
         </main>
     );
 };

@@ -1,5 +1,7 @@
 import { forwardRef } from "react";
 import useAboutInfo from "../hooks/useAboutInfo";
+import { Link } from "react-router"; // o "react-router" según tu versión
+
 
 
 
@@ -42,11 +44,13 @@ const AboutSection = forwardRef<HTMLElement, { id: string }>((props, ref) => {
                         </div>
                         <p className="py-3">
                             My professional journey has focused on developing complex and mission-critical systems, always with a strong foundation in object-oriented programming to ensure code maintainability and scalability. While my primary strength lies in development, my growing interest in software architecture drives me to design systems from a comprehensive perspective, considering scalability, security, and efficiency from conception. I possess knowledge of cloud services and am actively deepening my understanding of serverless architectures and cloud design patterns to lead larger-scale projects.
-
                         </p>
-                        <p>
+{/*                         <p>
                             Outside of technology, my artistic and sports passions enrich my professional profile. As a watercolor artist, I cultivate my creativity, attention to detail, and the ability to visualize abstract solutions. Being a padel coach has endowed me with leadership, effective communication, and strategic thinking skills, which are fundamental for guiding technical teams and solving problems under pressure. These experiences allow me to approach engineering challenges with an innovative perspective and strong execution capability.
                         </p>
+ */}
+                        <Link to="/about-more" className="hover:text-cyan-700 text-cyan-500 font-bold">Read more ...</Link>
+
                     </div>
                 </div>
 
