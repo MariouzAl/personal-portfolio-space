@@ -32,7 +32,7 @@ const PortfolioSection = forwardRef<HTMLElement, { id: string }>((props, ref) =>
 
             <div className="width-full px-3 pb-14 section-title" data-aos="fade-up">
                 <h2 className="emphasis-title">Portfolio</h2>
-                <p className="font-roboto">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                <p className="font-roboto">Explore my professional portfolio below, showcasing a selection of projects that highlight my technical skills and passion for creating impactful digital solutions.</p>
             </div>
 
             <div className="width-full p-3" >
