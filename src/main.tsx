@@ -9,8 +9,7 @@ import AutoIncrementCounter from './components/Counter.tsx'
 const router=createHashRouter([
   {path:'/',element:<App/> , errorElement:<div className='text-white'>404 NOT FOUND </div>},
   {path:'/counter',element:<AutoIncrementCounter/>},
-],
-{ basename: import.meta.env.BASE_URL,})
+])
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <RouterProvider router={router} ></RouterProvider> 
