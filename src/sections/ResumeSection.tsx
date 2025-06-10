@@ -15,7 +15,7 @@ const ResumeSection = forwardRef<HTMLElement, { id: string }>((props, ref) => {
             <p className="text-base">For a detailed overview of my professional trajectory and academic achievements, please refer to the comprehensive resume section below. This outlines my journey through key roles, significant projects, and educational milestones that have shaped my expertise.</p>
             <span className="self-end mt-2">
                 <a
-                    href="./files/cv.pdf"
+                    href="./files/Mario_Rivera_Resume.pdf"
                     download
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-cyan-500 text-white font-bold hover:bg-cyan-700 transition-colors mt-4"
                 >

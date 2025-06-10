@@ -49,7 +49,7 @@ const AboutSection = forwardRef<HTMLElement, { id: string }>((props, ref) => {
                             Outside of technology, my artistic and sports passions enrich my professional profile. As a watercolor artist, I cultivate my creativity, attention to detail, and the ability to visualize abstract solutions. Being a padel coach has endowed me with leadership, effective communication, and strategic thinking skills, which are fundamental for guiding technical teams and solving problems under pressure. These experiences allow me to approach engineering challenges with an innovative perspective and strong execution capability.
                         </p>
  */}
-                        <Link to="/about-more" className="hover:text-cyan-700 text-cyan-500 font-bold">Read more ...</Link>
+                        <Link to="#" className="hover:text-cyan-700 text-cyan-500 font-bold">Read more ...</Link>
 
                     </div>
                 </div>
