@@ -1,0 +1,27 @@
+{
+  "nav_menu": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "resume": "Curriculum",
+    "portfolio": "Portafolio",
+    "services": "Servicios",
+    "passions": "Pasiones",
+    "contact": "Contacto"
+  },
+    "whatAmI": {
+    "i_am": "Soy un ",
+    "software_eng": "Ingeniero de Software⚙️",
+    "developer": "Desarrollador⌨️",
+    "fullstack_developer": "Desarrollador Fullstack⌨️",
+    "frontend_developer": "Desarrollador Frontend⌨️",
+    "watercolor_artist": "Pintor de Acuarela🎨",
+    "padel_coach": "Entrenador de Padel🎾",
+    "karaoke_singer": "Cantante de Karaoke🎤"
+  },
+    "about":{
+    "description":"Soy ingeniero de software con más de 10 años de experiencia en desarrollo web. Cuento con una sólida base en JavaScript, TypeScript y diversos frameworks como React y Angular. Me apasiona construir aplicaciones escalables y mantenibles, y disfruto ideando y creando propuestas para diferentes proyectos. Comencé como un joven desarrollador freelance y luego evolucioné a un joven emprendedor liderando mi propio equipo de desarrollo, trabajando principalmente para una empresa internacional de logística y comercio con sede en la ciudad de Veracruz, llamada Grupo CICE, como uno de sus principales proveedores de desarrollo móvil. En un futuro no muy lejano, aspiro a convertirme en arquitecto de software.",
+    "subtitle":"Desarrollador Fullstack JS  / Pintor de Acuarela / Entrenador de Padel",
+    "description2":"Soy ingeniero de software fullstack con más de 10 años de experiencia en la creación de soluciones robustas y escalables usando JavaScript y TypeScript. Mi experiencia abarca desde el desarrollo de frontends interactivos con React y Angular hasta la implementación de APIs eficientes con Node.js y Express, así como la gestión de bases de datos SQL y NoSQL. Apasionado por la arquitectura de software y la optimización de sistemas, me dedico a transformar conceptos complejos en productos digitales eficientes y de alto rendimiento. Mi visión holística, también cultivada a través de mi rol como artista de acuarela y entrenador de pádel, me permite abordar los desafíos con creatividad y una estrategia sólida."
+  }
+ 
+}

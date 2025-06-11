@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import NavMenuItem from "./NavMenuItem";
+import { useTranslation } from 'react-i18next';
 
 export type MenuItem = {
     id:string
@@ -8,47 +9,48 @@ export type MenuItem = {
     link:string
 }
 
+
+
+
+const NavMeu = ({onNavChanges,selectedSection}:{selectedSection:string,onNavChanges:(link:string)=>void}) => {
+const {t} =useTranslation();
 const MENU_ITEMS:MenuItem[] = [{
     id: 'hero',
     icon: 'bi-house',
-    label: 'Home',
+    label: t('nav_menu.home'),
     link: '#hero'
 }, {
     id: 'about',
     icon: 'bi-person',
-    label: 'About',
+    label: t('nav_menu.about'),
     link: '#about'
 }, {
     id: 'resume',
     icon: 'bi-file-earmark-text',
-    label: 'Resume',
+    label: t('nav_menu.resume'),
     link: '#resume'
 }, {
     id: 'portfolio',
     icon: 'bi-images',
-    label: 'Portfolio',
+    label: t('nav_menu.portfolio'),
     link: '#portfolio',
 }, {
     id: 'services',
     icon: 'bi-hdd-stack',
-    label: 'Services',
+    label: t('nav_menu.services'),
     link: '#services',
 }, {
     id: 'passions',
     icon: 'bi-battery-full',
-    label: 'Passions',
+    label: t('nav_menu.passions'),
     link: '#passions',
 },
  {
     id: 'contact',
     icon: 'bi-envelope',
-    label: 'Contact',
+    label: t('nav_menu.contact'),
     link: '#contact',
 }]
-
-
-
-const NavMeu = ({onNavChanges,selectedSection}:{selectedSection:string,onNavChanges:(link:string)=>void}) => {
     const [activeItem, setActiveItem] = useState<string>(selectedSection); // Track the active menu item
     const  onClickHandler= (item:MenuItem): void=> {
         onNavChanges(item.link);
