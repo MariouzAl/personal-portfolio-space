@@ -110,7 +110,7 @@ export class AboutService {
   constructor() {
     this.person = new Person(
       "Mario Rivera",
-      new Date("1986,11,10"),
+      new Date(1986, 10, 10),
       "+52 229-148-6661",
       "San Pedro Tlaquepaque, Jalisco",
       "ace.mrivera@gmail.com",
