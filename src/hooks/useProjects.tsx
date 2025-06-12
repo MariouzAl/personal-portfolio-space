@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import TypedWords from "../components/TypedWords";
 
 export type PortfolioItemType = {
     id: number;
@@ -177,7 +176,16 @@ const PORTFOLIO_DATA: PortfolioItemType[] = [
         shortDescription: "Platform for providing market research, data  analytics and insights to retailers and consumer packaged goods.",
         link: "#",
         category: ["Projects", "Web", 'Backend'],
-        builtWith: ['Nodejs', "Express", 'AWS SDK', "Microservices", "REST API", "React", "Typescript", "Scrum", 'Kanban', 'NestJS', 'TypeOrm', 'Postman'],
+        builtWith: ['Nodejs', "Microservices", "REST API", "Angular", "Typescript", "Scrum", 'Kanban', 'Storybook', 'Figma', 'Postman'],
+    },
+    {
+        id: 15,
+        companyName: "3Pillar Global",
+        project: "Centene",
+        shortDescription: "Platform for providing market research, data  analytics and insights to retailers and consumer packaged goods.",
+        link: "#",
+        category: ["Projects", "Web", 'Backend'],
+        builtWith: ['Nodejs', "Microservices", "REST API", "Angular", "Typescript", "Scrum", 'Kanban', 'Storybook', 'Figma', 'Postman'],
     },
 
 
