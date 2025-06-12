@@ -49,5 +49,9 @@
       "title": "Hard Workers",
       "subtext": "whom I guided and developed"
     }
+  },
+  "skills": {
+    "title": "Skills",
+    "description": "With a solid foundation in web development, my skills are focused on building comprehensive and efficient digital solutions. Below, I present a breakdown of my core technical proficiencies, spanning from creating interactive user interfaces to managing server-side logic and database manipulation, utilizing the industry's most relevant technologies."
   }
 }

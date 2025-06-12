@@ -49,5 +49,10 @@
       "title": "Trabajadores a cargo",
       "subtext": "a quienes guié y desarrollé"
     }
+  },
+  "skills": {
+    "title": "Habilidades",
+    "description": "Con una sólida base en el desarrollo web, mis habilidades se centran en construir soluciones digitales completas y eficientes. A continuación, presento un desglose de mis competencias técnicas fundamentales, que abarcan desde la creación de interfaces de usuario interactivas hasta la gestión de la lógica del lado del servidor y la manipulación de bases de datos, utilizando las tecnologías más relevantes de la industria."
   }
+
 }
