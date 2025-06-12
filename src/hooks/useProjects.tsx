@@ -5,6 +5,7 @@ export type PortfolioItemType = {
     project: string;
     shortDescription: string;
     link: string;
+    projectLink?: string; // Optional property for backward compatibility
     category: string[];
     companyName?: string; // Optional property for backward compatibility
     cover?: string; // Optional property for backward compatibility
@@ -145,7 +146,7 @@ const PORTFOLIO_DATA: PortfolioItemType[] = [
         project: "CESISCCAM",
         shortDescription: "Conjunto de sistemas de simulación y sistemas de apoyo a la simulación, que permitiren al personal naval entrenarse en dos áreas principales, Entrenamiento de Operación y Entrenamiento de Mantenimiento, de los sistemas de Mando y Control de la SEMAR.",
         link: "https://www.semar.gob.mx/INIDETAM/proyectos.html#carousel-cesisccam",
-        cover: "./projects/cesisccam/cover.png",
+        cover: "./projects/cesisccam/2.png",
         category: ["Projects", "Web", 'Backend'],
         builtWith: ['Nodejs', "Express", "MongoDB", "PostgresSQL", "HTML", "JS", "CSS", "Angular", "SocketIO", "Typescript", "Scrum", 'Kanban'],
     },

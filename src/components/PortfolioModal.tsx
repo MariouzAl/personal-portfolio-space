@@ -1,10 +1,12 @@
 import { useEffect, useState } from "react";
+import type { PortfolioItemType } from "../hooks/useProjects";
 
 const PortfolioModal = ({ isOpen,
-    title = "Product1",
+    item,
     onClose, }:
     {
         isOpen: boolean;
+        item: PortfolioItemType,
         title?: string;
         onClose: () => void;
     }) => {
@@ -16,7 +18,7 @@ const PortfolioModal = ({ isOpen,
         if (show) {
             setShow(true);
             setAnimation("animate-fade-in");
-        } else  {
+        } else {
             console.log("animate-fade-out")
             setAnimation("animate-fade-out");
             // Espera la duración de la animación antes de desmontar
@@ -25,22 +27,48 @@ const PortfolioModal = ({ isOpen,
         }
     }, [isOpen, show]);
 
+    useEffect(() => {
+        if (isOpen) {
+            document.body.classList.add("overflow-hidden");
+        } else {
+            document.body.classList.remove("overflow-hidden");
+        }
+        // Limpieza por si el componente se desmonta
+        return () => {
+            document.body.classList.remove("overflow-hidden");
+        };
+    }, [isOpen]);
+
     const onCloseHandler = () => {
-        console.log( 'onCloseHandler')
+        console.log('onCloseHandler')
         setShow(false)
     }
 
     if (!isOpen) return null;
 
     return (
-        <div className="fixed inset-0 flex items-center justify-center  bg-black  z-[999]  bg-blend-overlay" >
-            <div className={`modal-content transition-all duration-300 ease-out transform ${animation}`}>
-
-                <img className="min-[200px] max-h-[calc(100vh-85px)]" src="/img/portfolio_thumbnail.png" alt="" />
-                <div className="h-auto w-full absolute bottom-0 py-5 px-2.5 order-2 max-h-[78vh] overflow-auto pb-12">
+        <div className="fixed inset-0 flex items-center justify-center  bg-black/90  z-[999]  bg-blend-overlay" >
+            <div className={` sm:p-20 flex flex-col sm:flex-row modal-content transition-all duration-300 ease-out transform ${animation}`}>
+                <img className="min-[200px] max-h-[calc(100vh-85px)] sm:w-[60%]" src={item.cover || "./img/portfolio_thumbnail.png"} alt="" />
+                <div className="h-auto w-full  bottom-0 py-5 px-2.5 order-2 max-h-[78vh] overflow-auto pb-12">
                     <div className="py-6 px-5">
-                        <h4 className="text-white text-base font-medium mb-5 leading-5 capitalize">{title}</h4>
+                        <h4 className="text-white text-base  mb-2 leading-5 capitalize font-extrabold font-raleway">{item.project}</h4>
+                        <span className="text-white font-semibold font-roboto text-sm">{item.companyName}</span>
+                        <p className="text-white font-light font-roboto mt-5">{item.shortDescription}</p>
+                        {item.link && (<a href={item.link} target="_blank" className="text-[var(--accent-color)] font-semibold font-roboto text-sm">View More Info</a>)}
+                        {item.projectLink && (<a href={item.projectLink} target="_blank" className="text-[var(--accent-color)] font-semibold font-roboto text-sm">View Project</a>)}
                     </div>
+                    <data >
+                        {item.builtWith && item.builtWith.length > 0 && (
+                            <div className="flex flex-wrap gap-2 px-5">
+                                {item.builtWith.map((tech, index) => (
+                                    <span key={index} className="text-white text-sm font-semibold bg-[var(--accent-color)]/50 px-3 py-1 rounded-md">
+                                        {tech}
+                                    </span>
+                                ))}
+                            </div>
+                        )}
+                    </data>
                 </div>
             </div>
             <button className="cursor-pointer w-9 h-9 absolute top-4 right-2.5 bg-black/75 rounded-[4px] flex flex-col items-center justify-center" aria-label="Close" data-taborder="3"
