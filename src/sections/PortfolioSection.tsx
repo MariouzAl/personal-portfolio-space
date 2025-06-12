@@ -2,8 +2,8 @@ import { forwardRef, useState } from "react";
 import PortfolioContainer from "../components/PortfolioContainer";
 import PortfolioFilter from "../components/PortfolioFilter";
 import PortfolioModal from "../components/PortfolioModal";
-import type { PortfolioItemType } from "../components/PortfolioItem";
-const CATEGORIES: string[] = ["All", "Apps", "Projects", "Branding"];
+import type { PortfolioItemType } from "../hooks/useProjects";
+const CATEGORIES: string[] = ["All", "Apps", "Web", "Projects", "Branding"];
 
 
 const PortfolioSection = forwardRef<HTMLElement, { id: string }>((props, ref) => {
@@ -46,7 +46,7 @@ const PortfolioSection = forwardRef<HTMLElement, { id: string }>((props, ref) =>
             {currentItem && (
                 <PortfolioModal
                     key={currentItem.id}
-                    title={currentItem.title}
+                    title={currentItem.project}
                     isOpen={isOpen}
                     onClose={handleCloseModal}
                 />
