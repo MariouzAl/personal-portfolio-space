@@ -8,7 +8,7 @@
     "passions": "Pasiones",
     "contact": "Contacto"
   },
-    "whatAmI": {
+  "whatAmI": {
     "i_am": "Soy un ",
     "software_eng": "Ingeniero de Software⚙️",
     "developer": "Desarrollador⌨️",
@@ -18,10 +18,41 @@
     "padel_coach": "Entrenador de Padel🎾",
     "karaoke_singer": "Cantante de Karaoke🎤"
   },
-    "about":{
-    "description":"Soy ingeniero de software con más de 10 años de experiencia en desarrollo web. Cuento con una sólida base en JavaScript, TypeScript y diversos frameworks como React y Angular. Me apasiona construir aplicaciones escalables y mantenibles, y disfruto ideando y creando propuestas para diferentes proyectos. Comencé como un joven desarrollador freelance y luego evolucioné a un joven emprendedor liderando mi propio equipo de desarrollo, trabajando principalmente para una empresa internacional de logística y comercio con sede en la ciudad de Veracruz, llamada Grupo CICE, como uno de sus principales proveedores de desarrollo móvil. En un futuro no muy lejano, aspiro a convertirme en arquitecto de software.",
-    "subtitle":"Desarrollador Fullstack JS  / Pintor de Acuarela / Entrenador de Padel",
-    "description2":"Soy ingeniero de software fullstack con más de 10 años de experiencia en la creación de soluciones robustas y escalables usando JavaScript y TypeScript. Mi experiencia abarca desde el desarrollo de frontends interactivos con React y Angular hasta la implementación de APIs eficientes con Node.js y Express, así como la gestión de bases de datos SQL y NoSQL. Apasionado por la arquitectura de software y la optimización de sistemas, me dedico a transformar conceptos complejos en productos digitales eficientes y de alto rendimiento. Mi visión holística, también cultivada a través de mi rol como artista de acuarela y entrenador de pádel, me permite abordar los desafíos con creatividad y una estrategia sólida."
+  "about": {
+    "description": "Soy ingeniero de software con más de 10 años de experiencia en desarrollo web. Cuento con una sólida base en JavaScript, TypeScript y diversos frameworks como React y Angular. Me apasiona construir aplicaciones escalables y mantenibles, y disfruto ideando y creando propuestas para diferentes proyectos. Comencé como un joven desarrollador freelance y luego evolucioné a un joven emprendedor liderando mi propio equipo de desarrollo, trabajando principalmente para una empresa internacional de logística y comercio con sede en la ciudad de Veracruz, llamada Grupo CICE, como uno de sus principales proveedores de desarrollo móvil. En un futuro no muy lejano, aspiro a convertirme en arquitecto de software.",
+    "subtitle": "Desarrollador Fullstack JS  / Pintor de Acuarela / Entrenador de Padel",
+    "description2": "Soy ingeniero de software fullstack con más de 10 años de experiencia en la creación de soluciones robustas y escalables usando JavaScript y TypeScript. Mi experiencia abarca desde el desarrollo de frontends interactivos con React y Angular hasta la implementación de APIs eficientes con Node.js y Express, así como la gestión de bases de datos SQL y NoSQL. Apasionado por la arquitectura de software y la optimización de sistemas, me dedico a transformar conceptos complejos en productos digitales eficientes y de alto rendimiento. Mi visión holística, también cultivada a través de mi rol como artista de acuarela y entrenador de pádel, me permite abordar los desafíos con creatividad y una estrategia sólida.",
+    "description3": "Mi trayectoria profesional se ha centrado en el desarrollo de sistemas complejos y críticos para la misión, siempre con una sólida base en la programación orientada a objetos para garantizar la mantenibilidad y escalabilidad del código. Si bien mi principal fortaleza radica en el desarrollo, mi creciente interés en la arquitectura de software me impulsa a diseñar sistemas desde una perspectiva integral, considerando la escalabilidad, la seguridad y la eficiencia desde la concepción. Poseo conocimientos sobre servicios en la nube y estoy profundizando activamente mi comprensión de las arquitecturas sin servidor y los patrones de diseño en la nube para liderar proyectos de mayor escala.",
+    "heres_some_facts": "Aquí hay algunos datos sobre mí:"
+  },
+  "readMore": "Quieres saber más...",
+  "resume": {
+    "download_resume": "Descarga mi currículum"
+  },
+  "months": "meses",
+  "years": "años",
+  "engineer": "Ingeniero",
+  "stats": {
+    "happy_clients": {
+      "title": "Clientes Felices",
+      "subtext": "y contando..."
+    },
+    "projects": {
+      "title": "Proyectos",
+      "subtext": "innovadores y eficientes"
+    },
+    "hours_of_support": {
+      "title": "Horas de Soporte",
+      "subtext": "dedicadas a nuestros clientes"
+    },
+    "hard_workers": {
+      "title": "Trabajadores a cargo",
+      "subtext": "a quienes guié y desarrollé"
+    }
+  },
+  "skills": {
+    "title": "Habilidades",
+    "description": "Con una sólida base en el desarrollo web, mis habilidades se centran en construir soluciones digitales completas y eficientes. A continuación, presento un desglose de mis competencias técnicas fundamentales, que abarcan desde la creación de interfaces de usuario interactivas hasta la gestión de la lógica del lado del servidor y la manipulación de bases de datos, utilizando las tecnologías más relevantes de la industria."
   }
- 
+
 }

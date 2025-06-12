@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import SkillLevel from "../components/SkillLevel";
 import { useSkillInfo } from "../hooks/useSkillInfo";
 import type { SkillInfo } from "../services/AboutService";
@@ -10,14 +11,15 @@ const SkillSection = () => {
         return [firstHalf, secondHalf];
     };
     
+    const {t} = useTranslation();
      const skills = useSkillInfo();
      const [firstSkillList,secondSkillList]:SkillInfo[][]=splitArrayInTwo(skills);
     return (
         <section id="skills" className="light-background bg-[var(--background-color)] text-[var(--text-color)] py-14">
 
             <div className="pb-16 relative px-3">
-                <h2 className="emphasis-title">Skills</h2>
-                <p>With a solid foundation in web development, my skills are focused on building comprehensive and efficient digital solutions. Below, I present a breakdown of my core technical proficiencies, spanning from creating interactive user interfaces to managing server-side logic and database manipulation, utilizing the industry's most relevant technologies.</p>
+                <h2 className="emphasis-title">{t('skills.title')}</h2>
+                <p>{t('skills.description')}</p>
             </div>
 
             <div className="px-3" data-aos="fade-up" data-aos-delay="100">

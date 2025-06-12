@@ -27,7 +27,7 @@ const AboutSection = forwardRef<HTMLElement, { id: string }>((props, ref) => {
                         <p className="py-3 italic font-roboto font-[400]">
                             {t("about.description2")}
                         </p>
-                        <p className="py-3 italic font-roboto font-[400]">Here's some facts about me:</p>
+                        <p className="py-3 italic font-roboto font-[400]">{t("about.heres_some_facts")}</p>
                         <div className="flex flex-col  lg:flex-row ">
                             <div className="lg:flex-1/2">
                                 <ul>
@@ -39,19 +39,15 @@ const AboutSection = forwardRef<HTMLElement, { id: string }>((props, ref) => {
                             <div className="lg:flex-1/2">
                                 <ul>
                                     <li className="mb-5 flex items-center"><i className="bi bi-chevron-right text-base mr-1.5 text-[var(--accent-color)]"></i> <strong>Age:</strong> <span>{person?.getAge()}</span></li>
-                                    <li className="mb-5 flex items-center"><i className="bi bi-chevron-right text-base mr-1.5 text-[var(--accent-color)]"></i> <strong>Degree:</strong> <span>{person?.getDegree()}</span></li>
+                                    <li className="mb-5 flex items-center"><i className="bi bi-chevron-right text-base mr-1.5 text-[var(--accent-color)]"></i> <strong>Degree:</strong> <span>{t("engineer")}</span></li>
                                     <li className="mb-5 flex items-center"><i className="bi bi-chevron-right text-base mr-1.5 text-[var(--accent-color)]"></i> <strong>Email:</strong> <span>{person?.getEmail()}</span></li>
                                 </ul>
                             </div>
                         </div>
                         <p className="py-3">
-                            My professional journey has focused on developing complex and mission-critical systems, always with a strong foundation in object-oriented programming to ensure code maintainability and scalability. While my primary strength lies in development, my growing interest in software architecture drives me to design systems from a comprehensive perspective, considering scalability, security, and efficiency from conception. I possess knowledge of cloud services and am actively deepening my understanding of serverless architectures and cloud design patterns to lead larger-scale projects.
+                            {t("about.description3")}
                         </p>
-                        {/*                         <p>
-                            Outside of technology, my artistic and sports passions enrich my professional profile. As a watercolor artist, I cultivate my creativity, attention to detail, and the ability to visualize abstract solutions. Being a padel coach has endowed me with leadership, effective communication, and strategic thinking skills, which are fundamental for guiding technical teams and solving problems under pressure. These experiences allow me to approach engineering challenges with an innovative perspective and strong execution capability.
-                        </p>
- */}
-                        <Link to="#" className="hover:text-cyan-700 text-cyan-500 font-bold">Read more ...</Link>
+                        <Link to="#" className="hover:text-cyan-700 text-cyan-500 font-bold">{t("readMore")}</Link>
 
                     </div>
                 </div>
