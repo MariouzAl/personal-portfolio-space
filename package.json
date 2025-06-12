@@ -1,6 +1,7 @@
 {
   "name": "personalportfolio",
   "private": true,
+  "homepage": "https://mariouzal.github.io/personal-portfolio-space/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
