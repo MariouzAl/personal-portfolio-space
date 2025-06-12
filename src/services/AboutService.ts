@@ -115,7 +115,7 @@ export class AboutService {
       "San Pedro Tlaquepaque, Jalisco",
       "ace.mrivera@gmail.com",
       "Available",
-      "Engineer",
+      "engineer",
       "about.description"
     );
   }
