@@ -4,10 +4,12 @@ import ProfessionalExperienceItem from "../components/ProfessionalExperienceItem
 import SumaryItem from "../components/SumaryItem";
 import useAboutInfo from "../hooks/useAboutInfo";
 import { useProfessionalExperience } from "../hooks/useProfessionalExperience";
+import { useTranslation } from "react-i18next";
 
 const ResumeSection = forwardRef<HTMLElement, { id: string }>((props, ref) => {
     const persona = useAboutInfo();
     const professionalExperience = useProfessionalExperience();
+    const { t } = useTranslation()
     return (<section id={props.id} ref={ref} className="text-color-[var(--default-color)] bg-[var(--background-color)] py-16 px-3 overflow-clip">
 
         <div className="pb-6 mb-4 flex flex-col items-start">
@@ -20,7 +22,7 @@ const ResumeSection = forwardRef<HTMLElement, { id: string }>((props, ref) => {
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-cyan-500 text-white font-bold hover:bg-cyan-700 transition-colors mt-4"
                 >
                     <i className="bi bi-filetype-pdf text-lg"></i>
-                    Download my resume
+                    {t("resume.download_resume")}
                 </a>
             </span>
         </div>

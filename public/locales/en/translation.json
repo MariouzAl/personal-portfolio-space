@@ -21,6 +21,37 @@
   "about": {
     "description": "I am a software engineer with over 10 years of experience in web development. I have a strong background in JavaScript, TypeScript, and various frameworks such as React and Angular.  I'm passionate about building scalable and maintainable applications I like to imagine and creating proposals for different projects. I started as a young Freelance Developer and later evolved into a young entrepreneur leading my own development team, working mostly for a International Logistics and Trade Company based on Veracruz city, called Grupo CICE, as one of their main mobile develpment providers.  In a not so long future I want to become a Software Architech",
     "subtitle": "Fullstack JS Developer / Watercolor artist / Padel trainer",
-    "description2": "I'm a fullstack software engineer with over 10 years of experience in building robust and scalable solutions using JavaScript and TypeScript. My expertise spans from developing interactive frontends with React and Angular to implementing efficient APIs with Node.js and Express, as well as managing SQL and NoSQL databases. Passionate about software architecture and system optimization, I'm dedicated to transforming complex concepts into efficient, high-performance digital products. My holistic vision, also cultivated through my role as a watercolor artist and padel coach, allows me to approach challenges with creativity and a solid strategy."
+    "description2": "I'm a fullstack software engineer with over 10 years of experience in building robust and scalable solutions using JavaScript and TypeScript. My expertise spans from developing interactive frontends with React and Angular to implementing efficient APIs with Node.js and Express, as well as managing SQL and NoSQL databases. Passionate about software architecture and system optimization, I'm dedicated to transforming complex concepts into efficient, high-performance digital products. My holistic vision, also cultivated through my role as a watercolor artist and padel coach, allows me to approach challenges with creativity and a solid strategy.",
+    "description3": "My professional journey has focused on developing complex and mission-critical systems, always with a strong foundation in object-oriented programming to ensure code maintainability and scalability. While my primary strength lies in development, my growing interest in software architecture drives me to design systems from a comprehensive perspective, considering scalability, security, and efficiency from conception. I possess knowledge of cloud services and am actively deepening my understanding of serverless architectures and cloud design patterns to lead larger-scale projects.",
+    "heres_some_facts": "Here's some facts about me:"
+  },
+  "readMore": "Read more...",
+  "resume": {
+    "download_resume": "Download my resume"
+  },
+  "months": "months",
+  "years": "years",
+  "engineer": "Engineer",
+  "stats": {
+    "happy_clients": {
+      "title": "Happy Clients",
+      "subtext": "and counting.."
+    },
+    "projects": {
+      "title": "Projects",
+      "subtext": "innovative and efficient"
+    },
+    "hours_of_support": {
+      "title": "Hours of Support",
+      "subtext": "dedicated to our clients"
+    },
+    "hard_workers": {
+      "title": "Hard Workers",
+      "subtext": "whom I guided and developed"
+    }
+  },
+  "skills": {
+    "title": "Skills",
+    "description": "With a solid foundation in web development, my skills are focused on building comprehensive and efficient digital solutions. Below, I present a breakdown of my core technical proficiencies, spanning from creating interactive user interfaces to managing server-side logic and database manipulation, utilizing the industry's most relevant technologies."
   }
 }

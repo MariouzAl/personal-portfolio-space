@@ -1,3 +1,5 @@
+import i18n from '../i18n'
+
 export const calculateAge = (date: Date): string => {
     const today = new Date();
     const birthDate = new Date(date);
@@ -11,12 +13,12 @@ export const calculateAge = (date: Date): string => {
         const month = today.getMonth() - birthDate.getMonth();
         const day = today.getDate() - birthDate.getDate();
         if (month < 0 || (month === 0 && day < 0)) {
-            return `${-month} months`;
+            return `${-month} ${i18n.t("months")}`;
         }
         if (day < 0) {
-            return `${-month - 1} months`;
+            return `${-month - 1} ${i18n.t("months")}`;
         }
-        return `${month} months`;
+        return `${month} ${i18n.t("months")}`;
     }
-    return `${age} years`;
+    return `${age} ${i18n.t("years")}`; // Return age in years
 };
