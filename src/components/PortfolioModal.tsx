@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import type { PortfolioItemType } from "../hooks/useProjects";
+import PortfolioCarrousel from "./PortfolioCarrousel";
 
 const PortfolioModal = ({ isOpen,
     item,
@@ -47,10 +48,10 @@ const PortfolioModal = ({ isOpen,
     if (!isOpen) return null;
 
     return (
-        <div className="fixed inset-0 flex items-center justify-center  bg-black/90  z-[999]  bg-blend-overlay" >
-            <div className={` sm:p-20 flex flex-col sm:flex-row modal-content transition-all duration-300 ease-out transform ${animation}`}>
-                <img className="min-[200px] max-h-[calc(100vh-85px)] sm:w-[60%]" src={item.cover || "./img/portfolio_thumbnail.png"} alt="" />
-                <div className="h-auto w-full  bottom-0 py-5 px-2.5 order-2 max-h-[78vh] overflow-auto pb-12">
+        <div className="fixed inset-0 flex items-center justify-center backdrop-blur-xs  bg-black/90  z-[999]  bg-blend-overlay" >
+            <div className={`overflow-auto w-screen h-screen sm:p-20 flex flex-col sm:flex-row transition-all duration-300 ease-out transform ${animation}`}>
+                <PortfolioCarrousel className="flex-1/3" items={item.images ?? ['./img/portfolio_thumbnail.png']}></PortfolioCarrousel>
+                <div className="flex-2/3 py-5 px-2.5">
                     <div className="py-6 px-5">
                         <h4 className="text-white text-base  mb-2 leading-5 capitalize font-extrabold font-raleway">{item.project}</h4>
                         <span className="text-white font-semibold font-roboto text-sm">{item.companyName}</span>
