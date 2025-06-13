@@ -5,6 +5,7 @@ export type PortfolioItemType = {
     project: string;
     shortDescription: string;
     link: string;
+    projectLink?: string; // Optional property for backward compatibility
     category: string[];
     companyName?: string; // Optional property for backward compatibility
     cover?: string; // Optional property for backward compatibility
@@ -23,8 +24,10 @@ const PORTFOLIO_DATA: PortfolioItemType[] = [
         cover: "./projects/combustibles/cover.png",
         images: [
             "./projects/combustibles/cover.png",
-            "./projects/combustibles/main_screens.png",
-            "./projects/combustibles/screen3.png",
+            "./projects/combustibles/1.png",
+            "./projects/combustibles/2.png",
+            "./projects/combustibles/3.png",
+            "./projects/combustibles/5.png",
         ],
         builtWith: ["Adobe AIR", "Adobe Flex", "ActionScript 3.0", "Adobe Illustrator", "Adobe InDesign"],
     },
@@ -87,6 +90,15 @@ const PORTFOLIO_DATA: PortfolioItemType[] = [
         link: "/img/portfolio/app1.jpg",
         category: ["Apps"],
         cover: "./projects/appdoc/cover.png",
+        images: [
+            "./projects/appdoc/cover.png",
+            "./projects/appdoc/1.png",
+            "./projects/appdoc/2.png",
+            "./projects/appdoc/3.png",
+            "./projects/appdoc/4.png",
+            "./projects/appdoc/5.png",
+
+        ],
         builtWith: ["Ionic", "Javascript", "AngularJS", "Cordova", "HTML5", "CSS3"],
     },
     {
@@ -97,6 +109,15 @@ const PORTFOLIO_DATA: PortfolioItemType[] = [
         link: "/img/portfolio/app1.jpg",
         cover: "./projects/appcontenedores/cover.png",
         category: ["Apps", "Web"],
+        images: [
+            "./projects/appcontenedores/cover.png",
+            "./projects/appcontenedores/1.png",
+            "./projects/appcontenedores/2.png",
+            "./projects/appcontenedores/3.png",
+            "./projects/appcontenedores/4.png",
+            "./projects/appcontenedores/6.png",
+
+        ],
         builtWith: ["Javascript", "AngularJS", "Angular Material", "Cordova", "HTML5", "CSS3", "Adobe Illustrator"],
     },
     {
@@ -145,7 +166,11 @@ const PORTFOLIO_DATA: PortfolioItemType[] = [
         project: "CESISCCAM",
         shortDescription: "Conjunto de sistemas de simulación y sistemas de apoyo a la simulación, que permitiren al personal naval entrenarse en dos áreas principales, Entrenamiento de Operación y Entrenamiento de Mantenimiento, de los sistemas de Mando y Control de la SEMAR.",
         link: "https://www.semar.gob.mx/INIDETAM/proyectos.html#carousel-cesisccam",
-        cover: "./projects/cesisccam/cover.png",
+        cover: "./projects/cesisccam/2.png",
+        images: [
+            "./projects/cesisccam/cover.png",
+            "./projects/cesisccam/1.jpg",
+            "./projects/cesisccam/2.png"],
         category: ["Projects", "Web", 'Backend'],
         builtWith: ['Nodejs', "Express", "MongoDB", "PostgresSQL", "HTML", "JS", "CSS", "Angular", "SocketIO", "Typescript", "Scrum", 'Kanban'],
     },

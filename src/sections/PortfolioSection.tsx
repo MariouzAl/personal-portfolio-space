@@ -30,7 +30,7 @@ const PortfolioSection = forwardRef<HTMLElement, { id: string }>((props, ref) =>
     return (
         <section id={props.id} ref={ref} className="light-background bg-[var(--background-color)] text-[var(--text-color)] py-14">
 
-            <div className="width-full px-3 pb-14 section-title" data-aos="fade-up">
+            <div className="width-full px-3 pb-14 section-title">
                 <h2 className="emphasis-title">Portfolio</h2>
                 <p className="font-roboto">Explore my professional portfolio below, showcasing a selection of projects that highlight my technical skills and passion for creating impactful digital solutions.</p>
             </div>
@@ -46,7 +46,7 @@ const PortfolioSection = forwardRef<HTMLElement, { id: string }>((props, ref) =>
             {currentItem && (
                 <PortfolioModal
                     key={currentItem.id}
-                    title={currentItem.project}
+                    item={currentItem}
                     isOpen={isOpen}
                     onClose={handleCloseModal}
                 />
