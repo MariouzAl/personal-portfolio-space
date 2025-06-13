@@ -18,7 +18,7 @@ export const useTimer = (initialValue: number = 0) => {
     const [isRunning, setIsRunning] = useState(true);
 
     useEffect(() => {
-        let timer: number
+        let timer: any
 
         if (isRunning) {
             timer = setInterval(() => {
@@ -49,7 +49,7 @@ const useTimerWithTimeout = (initialValue: number = 0) => {
     const [isRunning, setIsRunning] = useState(true);
 
     useEffect(() => {
-        let timer: number
+        let timer: any
 
         if (isRunning) {
             timer = setTimeout(() => {
