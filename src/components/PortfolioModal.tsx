@@ -49,9 +49,9 @@ const PortfolioModal = ({ isOpen,
 
     return (
         <div className="fixed inset-0 flex items-center justify-center backdrop-blur-xs  bg-black/90  z-[999]  bg-blend-overlay" >
-            <div className={`overflow-auto w-screen h-screen sm:p-20 flex flex-col sm:flex-row transition-all duration-300 ease-out transform ${animation}`}>
-                <PortfolioCarrousel className="flex-1/3" items={item.images ?? ['./img/portfolio_thumbnail.png']}></PortfolioCarrousel>
-                <div className="flex-2/3 py-5 px-2.5">
+            <div className={`overflow-auto w-full h-full max-w-[98vw] max-h-[98vh] lg:p-20 flex flex-col sm:flex-row transition-all duration-300 ease-out transform ${animation}`}>
+                <PortfolioCarrousel className="basis-1/3 flex" items={item.images ?? ['./img/portfolio_thumbnail.png']}></PortfolioCarrousel>
+                <div className="basis-2/3 py-5 px-2.5 landscape:overflow-auto">
                     <div className="py-6 px-5">
                         <h4 className="text-white text-base  mb-2 leading-5 capitalize font-extrabold font-raleway">{item.project}</h4>
                         <span className="text-white font-semibold font-roboto text-sm">{item.companyName}</span>
