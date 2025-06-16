@@ -2,7 +2,7 @@ import { forwardRef, useState } from "react";
 import PortfolioContainer from "../components/PortfolioContainer";
 import PortfolioFilter from "../components/PortfolioFilter";
 import PortfolioModal from "../components/PortfolioModal";
-import type { PortfolioItemType } from "../hooks/useProjects";
+import { useProjects, type PortfolioItemType } from "../hooks/useProjects";
 const CATEGORIES: string[] = ["All", "Apps", "Web", "Projects", "Branding"];
 
 
@@ -10,6 +10,7 @@ const PortfolioSection = forwardRef<HTMLElement, { id: string }>((props, ref) =>
     const [category, setCategory] = useState<string>("All");
     const [isOpen, setIsOpen] = useState<boolean>(true);
     const [currentItem, setCurrentItem] = useState<PortfolioItemType | null>(null);
+    const projects = useProjects(category)
 
 
     const onCategoryChange = (category: string) => {
@@ -27,6 +28,7 @@ const PortfolioSection = forwardRef<HTMLElement, { id: string }>((props, ref) =>
         setCurrentItem(null);
     };
 
+
     return (
         <section id={props.id} ref={ref} className="light-background bg-[var(--background-color)] text-[var(--text-color)] py-14">
 
@@ -39,15 +41,16 @@ const PortfolioSection = forwardRef<HTMLElement, { id: string }>((props, ref) =>
 
                 <div className="flex flex-col">
                     <PortfolioFilter onCategoryChange={onCategoryChange} categories={CATEGORIES}></PortfolioFilter>
-                    <PortfolioContainer category={category} onSelectedPortFolioItem={onSelectedPortFolioItem} />
+                    <PortfolioContainer projects={projects} category={category} onSelectedPortFolioItem={onSelectedPortFolioItem} />
                 </div>
 
             </div>
             {currentItem && (
                 <PortfolioModal
                     key={currentItem.id}
-                    item={currentItem}
+                    currentItem={currentItem}
                     isOpen={isOpen}
+                    items={projects}
                     onClose={handleCloseModal}
                 />
             )}

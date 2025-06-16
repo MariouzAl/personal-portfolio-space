@@ -1,10 +1,9 @@
 import PortfolioElement from "./PortfolioItem";
-import { useProjects, type PortfolioItemType } from "../hooks/useProjects";
+import { type PortfolioItemType } from "../hooks/useProjects";
 import { useState } from "react";
 
-const PortfolioContainer = ({ category, onSelectedPortFolioItem }: { category: string, onSelectedPortFolioItem: (item: PortfolioItemType) => void }) => {
+const PortfolioContainer = ({ onSelectedPortFolioItem, projects }: { category: string, onSelectedPortFolioItem: (item: PortfolioItemType) => void, projects: PortfolioItemType[] }) => {
     const [selectedId, setSelectedId] = useState<number | null>(null);
-    const projects = useProjects(category)
     return (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {projects.map((item) => (
