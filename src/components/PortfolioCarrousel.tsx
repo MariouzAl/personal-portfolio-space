@@ -39,7 +39,7 @@ export function PortfolioCarrousel({ items, className }: { items: string[], clas
             className="w-full h-full flex items-center justify-center"
             plugins={[
                 Autoplay({
-                    delay: 2000000,
+                    delay: 5000,
                 }),
             ]}
         >
