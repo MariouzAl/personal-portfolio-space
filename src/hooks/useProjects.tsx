@@ -127,6 +127,9 @@ const PORTFOLIO_DATA: PortfolioItemType[] = [
         shortDescription: "La aplicación LiveIntour hace uso del Sdk de android y del SDK Metaio para lograr la funcionalidad de Realidad Aumentada y geolocalizacion en dispositivos móviles",
         link: "/img/portfolio/app1.jpg",
         cover: "./projects/liveintour/cover.png",
+        images: [
+            "./projects/liveintour/cover.png",
+        ],
         category: ["Apps"],
         builtWith: ["Android SDK", "Java", "Android Studio", "Meta IO SDK"],
     },
@@ -137,6 +140,9 @@ const PORTFOLIO_DATA: PortfolioItemType[] = [
         shortDescription: "Implementar una aplicación de Calculadora para diferentes operaciones de salud. Utilizando un código base implementado en HTML",
         link: "/img/portfolio/app1.jpg",
         cover: "./projects/echocalc/cover.png",
+        images: [
+            "./projects/echocalc/cover.png",
+        ],
         category: ["Apps"],
         builtWith: ["Android SDK", "HTML", "CSS", "JS"],
     },
@@ -147,6 +153,9 @@ const PORTFOLIO_DATA: PortfolioItemType[] = [
         shortDescription: " Aplicacion con Realidad Aumentada para figura pública.",
         link: "/img/portfolio/app1.jpg",
         cover: "./projects/hectorizate/cover.png",
+        images: [
+            "./projects/hectorizate/cover.png",
+        ],
         category: ["Apps"],
         builtWith: ["Android SDK", "Metaio SDK", "Volley library", "Parse", "Java"],
     },
@@ -157,6 +166,9 @@ const PORTFOLIO_DATA: PortfolioItemType[] = [
         shortDescription: "Renovacion del estilo del sitio web El Dictamen",
         link: "/img/portfolio/app1.jpg",
         cover: "./projects/dictamen/cover.png",
+        images: [
+            "./projects/dictamen/cover.png",
+        ],
         category: ["Projects", "Web"],
         builtWith: ["Wordpress", "PHP", "HTML", "JS", "CSS"],
     },
@@ -181,8 +193,11 @@ const PORTFOLIO_DATA: PortfolioItemType[] = [
         shortDescription: "Online IT training platform offering a vast library of concise and engaging video courses led by expert instructors. It focuses on practical skills and certifications across various IT domains.",
         link: "https://www.cbtnuggets.com/",
         cover: "./projects/cbt/cover.png",
+        images: [
+            "./projects/cbt/cover.png"
+        ],
         category: ["Projects", "Web", 'Backend'],
-        builtWith: ['Nodejs', "Express", 'AWS SDK', "DynamoDB" , "Microservices", "REST API", "Typescript", "Scrum", 'Kanban'],
+        builtWith: ['Nodejs', "Express", 'AWS SDK', "DynamoDB", "Microservices", "REST API", "Typescript", "Scrum", 'Kanban'],
     },
     {
         id: 13,
@@ -191,6 +206,7 @@ const PORTFOLIO_DATA: PortfolioItemType[] = [
         shortDescription: "Healthcare cost reduction for self-funded organizations.",
         link: "https://www.amps.com/",
         cover: "./projects/amps/cover.png",
+        images: ["./projects/amps/cover.png"],
         category: ["Projects", "Web", 'Backend'],
         builtWith: ['Nodejs', "Express", 'AWS SDK', "Microservices", "REST API", "React", "Typescript", "Scrum", 'Kanban', 'NestJS', 'TypeOrm', 'Postman'],
     },
@@ -199,6 +215,9 @@ const PORTFOLIO_DATA: PortfolioItemType[] = [
         companyName: "3Pillar Global",
         project: "Nielsen",
         shortDescription: "Platform for providing market research, data  analytics and insights to retailers and consumer packaged goods.",
+        cover: "./projects/nielsen/cover.png",
+        images: [
+            "./projects/nielsen/cover.png",],
         link: "#",
         category: ["Projects", "Web", 'Backend'],
         builtWith: ['Nodejs', "Microservices", "REST API", "Angular", "Typescript", "Scrum", 'Kanban', 'Storybook', 'Figma', 'Postman'],
@@ -209,8 +228,28 @@ const PORTFOLIO_DATA: PortfolioItemType[] = [
         project: "Centene",
         shortDescription: "Platform for providing market research, data  analytics and insights to retailers and consumer packaged goods.",
         link: "#",
+        cover: "./projects/centene/cover.png",
+        images: [
+            "./projects/centene/cover.png",
+        ],
+        projectLink: "https://www.centene.com/",
         category: ["Projects", "Web", 'Backend'],
         builtWith: ['Nodejs', "Microservices", "REST API", "Angular", "Typescript", "Scrum", 'Kanban', 'Storybook', 'Figma', 'Postman'],
+    },
+    {
+        id: 16,
+        companyName: "",
+        project: "Soil Stress Calculator",
+        shortDescription: "A desktop application designed to calculate soil stress based on various parameters.",
+        link: "#",
+        cover: "./projects/soilstress/2.png",
+        images: [
+            "./projects/soilstress/cover.png",
+            "./projects/soilstress/1.jpeg",
+            "./projects/soilstress/2.png",
+        ],
+        category: ["Projects", "Apps"],
+        builtWith: ["python", "PySide6", "numpy", "matplotlib", "pandas"],
     },
 
 

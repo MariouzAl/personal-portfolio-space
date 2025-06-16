@@ -22,7 +22,7 @@ const PortfolioItem = ({
                 className={`absolute inset-0 z-[3] bg-black/50 transition-all duration-300 p-4
           ${selected ? "opacity-100" : "opacity-0"}
           ${selected ? "block" : "hidden"}
-          group-hover:block hidden
+          group-hover:block 
           group-hover:opacity-100
         `}
             >
