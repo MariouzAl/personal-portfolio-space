@@ -3,8 +3,8 @@ import { useTranslation } from 'react-i18next';
 
 
 const LanguageSelector = () => {
-    const [lang, setLang] = useState<"es" | "en">("en");
     const { i18n } = useTranslation();
+    const [lang, setLang] = useState<"es" | "en">(i18n.language as "es" | "en");
     const handleLangChange = (newLang: "es" | "en") => {
         setLang(newLang);
         // Aquí puedes agregar lógica para cambiar el idioma global

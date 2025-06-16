@@ -1,33 +1,36 @@
 import { forwardRef } from "react"
 import ServiceItem, { type ServiceIcons, type ServiceType } from "../components/ServiceItem"
+import { useTranslation } from "react-i18next"
 
-const services: (ServiceType & { icon: ServiceIcons })[] = [
-    {
-        icon: "briefcase", description: "Custom web solution development, covering both the user interface (Frontend with React/Vite) and server-side logic (Backend with RESTful APIs and databases). Ideal for projects requiring robust end-to-end functionality.", title: "Fullstack Development"
-    },
-    {
-        icon: "card-checklist", description: "Designing and building interactive, responsive, and optimized user interfaces, leveraging the latest versions of React and the robust type safety of TypeScript. Focused on exceptional user experience (UX) and visual performance.", title: "Specialized Frontend Development (React & TypeScript)"
-    },
-    {
-        icon: "bar-chart", description: "Developing server-side logic to power web applications, including the creation of secure and efficient RESTful APIs, along with the integration and management of various databases.", title: "Backend API Design & Implementation"
-    },
-    {
-        icon: "binoculars", description: "Providing updates and ongoing support for existing web applications, including migrating to newer technologies, code refactoring, and bug resolution to ensure optimal performance and long-term scalability.", title: "Web Application Maintenance & Modernization"
-    },
-    {
-        icon: "brightness-high", description: "Expert guidance on web development best practices, technology selection, software architecture design, and implementation strategies for web projects, helping to lay solid foundations from the outset.", title: "Web Technical Consulting & Architecture"
-    },
-    {
-        icon: "calendar4-week", description: "Connecting your application with diverse external platforms and services (e.g., payment gateways, social media APIs, mapping services, analytics tools) to extend its functionality and automate processes, ensuring seamless and secure communication.", title: "Third-Party API & External Service Integration"
-    },
-]
 
 const ServicesSection = forwardRef<HTMLElement, { id: string }>(({ id }) => {
+    const { t } = useTranslation()
+
+    const services: (ServiceType & { icon: ServiceIcons })[] = [
+        {
+            icon: "briefcase", description: t('services.fullstack_development.description'), title: t('services.fullstack_development.title')
+        },
+        {
+            icon: "card-checklist", description: t('services.specialized_frontend_development.description'), title: t('services.specialized_frontend_development.title')
+        },
+        {
+            icon: "bar-chart", description: t('services.backend_api_design_and_implementation.description'), title: t('services.backend_api_design_and_implementation.title')
+        },
+        {
+            icon: "binoculars", description: t('services.web_application_maintenance_and_modernization.description'), title: t('services.web_application_maintenance_and_modernization.title')
+        },
+        {
+            icon: "brightness-high", description: t('services.web_technical_consulting_and_architecture.description'), title: t('services.web_technical_consulting_and_architecture.title')
+        },
+        {
+            icon: "calendar4-week", description: t('services.third_party_api_and_external_service_integration.description'), title: t('services.third_party_api_and_external_service_integration.title')
+        },
+    ]
     return (
         <section className="text-[var(--default-color)] bg-[var(--background-color)] py-14 px-0 overflow-clip" id={id}>
             <div className="w-full max-w-[540px] px-[calc(var(--bs-gutter-x)*.5)] ml-auto mr-auto pb-[60px] md:max-w-[1320px]  ">
-                <h2 className="emphasis-title">Services</h2>
-                <p>Focused on transforming ideas into robust digital solutions, I offer a range of web development services designed to meet the specific needs of your project. My expertise spans from conceptualization to deployment, ensuring efficient and high-quality results.</p>
+                <h2 className="emphasis-title">{t('services.title')}</h2>
+                <p>{t('services.description')}</p>
             </div>
 
             <div className="w-full max-w-[540px] md:max-w-full ml-auto mr-auto px-[calc(var(--bs-gutter-x)*.5)]">
