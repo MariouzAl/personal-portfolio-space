@@ -1,17 +1,18 @@
 import { useEffect, useState } from "react";
 import type { PortfolioItemType } from "../hooks/useProjects";
 import PortfolioCarrousel from "./PortfolioCarrousel";
+import { useTranslation } from "react-i18next";
 
-const PortfolioModal = ({ isOpen,
-    currentItem,
-    onClose, items }:
-    {
-        items: PortfolioItemType[],
-        isOpen: boolean;
-        currentItem: PortfolioItemType,
-        title?: string;
-        onClose: () => void;
-    }) => {
+type PortfolioModalProps = {
+    items: PortfolioItemType[];
+    isOpen: boolean;
+    currentItem: PortfolioItemType;
+    title?: string;
+    onClose: () => void;
+};
+
+const PortfolioModal = ({ isOpen, currentItem, onClose, items }: PortfolioModalProps) => {
+    const {t} = useTranslation();
     const [show, setShow] = useState(isOpen);
     const [animation, setAnimation] = useState("animate-fade-in");
     const [currentIndex, setCurrentIndex] = useState(
@@ -65,11 +66,11 @@ const PortfolioModal = ({ isOpen,
                 <PortfolioCarrousel className="basis-1/3 flex" items={item.images ?? ['./img/portfolio_thumbnail.png']}></PortfolioCarrousel>
                 <div className="basis-2/3 py-5 px-2.5 landscape:overflow-auto">
                     <div className="py-6 px-5">
-                        <h4 className="text-white text-base  mb-2 leading-5 capitalize font-extrabold font-raleway">{item.project}</h4>
+                        <h4 className="text-white text-base  mb-2 leading-5 capitalize font-extrabold font-raleway">{t(`portfolio.projects.${item.key}.project` as any)}</h4>
                         <span className="text-white font-semibold font-roboto text-sm">{item.companyName}</span>
-                        <p className="text-white font-light font-roboto mt-5">{item.shortDescription}</p>
-                        {item.link && (<a href={item.link} target="_blank" className="text-[var(--accent-color)] font-semibold font-roboto text-sm">View More Info</a>)}
-                        {item.projectLink && (<a href={item.projectLink} target="_blank" className="text-[var(--accent-color)] font-semibold font-roboto text-sm">View Project</a>)}
+                        <p className="text-white font-light font-roboto mt-5">{t(`portfolio.projects.${item.key}.shortDescription` as any)}</p>
+                        {item.link && (<a href={item.link} target="_blank" className="text-[var(--accent-color)] font-semibold font-roboto text-sm">{t('portfolio.viewMoreInfo')}</a>)}
+                        {item.projectLink && (<a href={item.projectLink} target="_blank" className="text-[var(--accent-color)] font-semibold font-roboto text-sm">{t('portfolio.viewProject')}</a>)}
                     </div>
                     <data >
                         {item.builtWith && item.builtWith.length > 0 && (
