@@ -198,7 +198,6 @@
       "position": "Software Engineer",
       "description": "Software Engineer contractor at INIDETAM",
       "responsibilities": [
-        "Developed and maintained web applications using React and Node.js",
         "Developed and maintained web applications using Angular and Node.js",
         "Collaborated with cross-functional teams to define, design, and ship new features",
         "Participated in code reviews and contributed to team knowledge sharing",
@@ -235,5 +234,9 @@
         "Development SPA web app made with Angular"
       ]
     }
+  },
+  "testimonials":{
+    "title":"Testimonials",
+    "intro":"Discover the success stories of my collaborators and clients."
   }
 }
