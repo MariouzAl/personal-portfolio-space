@@ -37,7 +37,7 @@ const ServicesSection = forwardRef<HTMLElement, { id: string }>(({ id }) => {
 
                 <div className="flex flex-col sm:flex-row sm:flex-wrap gap-1.5">
                     {services.map(service => {
-                        return <ServiceItem icon={service.icon} service={service}></ServiceItem>
+                        return <ServiceItem key={service.title} icon={service.icon} service={service}></ServiceItem>
 
                     })}
 

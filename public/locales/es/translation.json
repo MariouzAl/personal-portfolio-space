@@ -195,7 +195,6 @@
       "position": "Ingeniero de Software",
       "description": "Ingeniero de Software contratista en INIDETAM",
       "responsibilities": [
-        "Desarrollé y mantuve aplicaciones web utilizando React y Node.js",
         "Desarrollé y mantuve aplicaciones web utilizando Angular y Node.js",
         "Colaboré con equipos multifuncionales para definir, diseñar y enviar nuevas funciones",
         "Participé en revisiones de código y contribuyó al intercambio de conocimientos en el equipo",
@@ -232,5 +231,9 @@
         "Desarrollo de una aplicación web SPA hecha con Angular"
       ]
     }
+  },
+   "testimonials":{
+    "title":"Recomendaciones",
+    "intro":"Conoce las historias de éxito de mis colaboradores y clientes."
   }
 }

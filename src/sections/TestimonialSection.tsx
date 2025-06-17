@@ -1,22 +1,24 @@
 import { forwardRef } from "react"
+import { useTranslation } from "react-i18next"
+import   TestimonialCarousel from "../components/TestimonialCarousel";
+import { useTestimonial } from "../hooks/useTestimonials";
 
-const TestimonialSection =forwardRef<HTMLElement, { id: string }>(({ id }) => {
+const TestimonialSection = forwardRef<HTMLElement, { id: string }>((props, ref) => {
+  const testimonials=useTestimonial()
+  const { t } = useTranslation();
 
+  return <section id={props.id} ref={ref} className="light-background bg-[var(--background-color)] text-[var(--text-color)] py-14">
 
-    return (<section id={id} className="testimonials section light-background">
+    <div className="width-full px-3 pb-14 section-title">
+      <h2 className="emphasis-title">{t('testimonials.title')}</h2>
+      <p>{t('testimonials.intro')}</p>
+    </div>
 
-      <div className="container section-title aos-init aos-animate" data-aos="fade-up">
-        <h2>Testimonials</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div>
+    <TestimonialCarousel items={testimonials}></TestimonialCarousel>
 
-      <div className="container aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-
-
-
-      </div>
-
-    </section>)
+  </section>
 })
 
 export default TestimonialSection
+
+
