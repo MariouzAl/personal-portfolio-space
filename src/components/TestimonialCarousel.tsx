@@ -40,10 +40,11 @@ const TestimonialCarousel = ({ items }: { items: Testimonial[] }) => {
     >
       <CarouselContent className="w-full h-full">
         {items.map((item, index) => (
-          <CarouselItem key={index} className="w-[200px]">
-            <div className="flex-col items-center justify-center">
-              <blockquote>
-                <div className="bg-white shadow-lg p-5 relative mb-9 rounded-[6px] mt-0 mx-3.5 mr-3.5 
+          <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
+            <div className="flex-col items-center justify-center h-full">
+              <blockquote className="flex flex-col  h-full">
+                <div className="flex-1 content-center
+                bg-white shadow-lg p-5 relative mb-9 rounded-[6px] mt-0 mx-3.5 mr-3.5 
                 after:absolute
                 after:content-[''] after:w-0  after:h-0 after:border-solid after:border-t-[20px] after:border-x-[20px] after:border-t-white
                 after:border-r-[transparent] after:border-l-[transparent]
@@ -57,7 +58,7 @@ const TestimonialCarousel = ({ items }: { items: Testimonial[] }) => {
                     <i className="bi bi-quote quote-icon-right inline-block relative left-[5px] text-[26px]  scale-y-[-1] scale-x-[-1]  leading-0 text-[var(--accent-color)] opacity-40 top-2.5" />
                   </p>
                 </div>
-                <footer className="flex flex-col items-center">
+                <footer className=" flex flex-col items-center justify-end">
                   <img className="rounded-full" src={item.image} alt="" />
                   <cite>
                     <p className="text-center font-bold text-lg">

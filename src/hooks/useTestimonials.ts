@@ -10,6 +10,22 @@ export type Testimonial = {
 };
 
 const testimonialsDTO: Testimonial[] = [
+    {
+      id: 4,
+      key: "edwin-sandoval",
+      who: "Edwin Sandoval",
+      image:"./testimonial/edwin.png",
+      position: "Technical Lead Frontend Developer at 3Pillar Global",
+      comment: "Mario es un excelente profesional que en momentos donde los proyectos se llegan complicar, es donde mejor se desempeña, aportando talento, disciplina, responsabilidad, liderazgo y trabajo en equipo, es un as bajo la manga para cualquier organización.",
+    },
+    {
+      id: 6,
+      key: "ronmell-fuentes",
+      who: "Ronmell Fuentes",
+      image:"./testimonial/ronmell.png",
+      position: "Sr. Software Engineer",
+      comment: "I've had the great opportunity to work in the same team with Mario; anyone can see how skillful Mario is by the very first session, Mario truly resembles the spirit for delivering the optimal value to the customer in each task. I am grateful that I could collide with such a great professional. I undoubtedly recommend Mario as a crucial team member, how could I not.",
+    },
   {
     id: 1,
     image:"./testimonial/yami.png",
@@ -33,6 +49,14 @@ const testimonialsDTO: Testimonial[] = [
     image:"./testimonial/rod.png",
     position: "Certified Salesforce Administrator & Fullstack JS ",
     comment: "Mario Alberto es una persona responsable, que sabe trabajar bajo presión y da lo mejor de sí para completar cualquier trabajo.",
+  },
+  {
+    id: 5,
+    key: "carmelino-zea",
+    who: "Mtro. Carmelino Zea Constantino",
+    image:"./testimonial/carmelino.png",
+    position: 'Profesor Titular "C" de Tiempo Completo, Facultad de Ingeniería, UNAM',
+    comment: "Recomiendo a Mario Rivera Domínguez porque en los trabajos de colaboración en que le he pedido que nos ayude siempre lo ha hecho con gran calidad y dinamismo; posee cualidades que lo hacen una persona de gran valor, comprometido con el sentido de responsabilidad, y habilidades para trabajar en equipo",
   },
 ];
 
