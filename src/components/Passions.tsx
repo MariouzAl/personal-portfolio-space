@@ -6,7 +6,7 @@ const Passions = ({className, skills}:{className:string, skills:SkillData[]}) =>
         <div className={`flip-card w-64 h-80 perspective-1000 cursor-pointer ${className}`}>
             <div className="flip-card-inner w-full h-full text-center ">
                 <div className="flip-card-front">
-                    <div className={`relative w-[242px] py-14 px-4 h-[390px] bg-[url(./my_passions/placa.svg)] bg-cover flex flex-col`}>
+                    <div className={`relative w-[242px] py-14 px-4 h-[390px] bg-[url(/my_passions/placa.svg)] bg-cover flex flex-col`}>
                         <div className='flex-1/2  flex-row shrink-0'>
                             <img className="absolute top-14 right-2.5 h-44 sepia-40" src="./my_passions/me_padel_profile.png" alt="" />
                             <div className='flex flex-col absolute top-25 left-8 text-center'>
@@ -34,7 +34,7 @@ const Passions = ({className, skills}:{className:string, skills:SkillData[]}) =>
                     </div>
                 </div>
                 <div className="flip-card-back">
-                    <div className={`relative w-[242px] py-14 px-4 h-[390px] bg-[url(./my_passions/placa.svg)] bg-cover flex flex-col items-center`}>
+                    <div className={`relative w-[242px] py-14 px-4 h-[390px] bg-[url(/my_passions/placa.svg)] bg-cover flex flex-col items-center`}>
                         <div>
                             <img src="./my_passions/pala_xcalion.png" className="size-30 object-contain" />
                             <p className="font-roboto uppercase font-bold text-sm text-black/80" >XCalion H1-Max </p>

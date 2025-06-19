@@ -38,7 +38,7 @@ const PassionsSection = forwardRef<HTMLElement, { id: string }>((props, ref) => 
             </div>
             <div className="w-full">
                 <h3 className="w-full max-w-[540px] px-[calc(var(--bs-gutter-x)*.5)] ml-auto mr-auto pb-[30px] md:max-w-[1320px] ">Padel</h3>
-                <div className="bg-[url(./my_passions/playing2.jpeg)] bg-cover bg-center ">
+                <div className="bg-[url(/my_passions/playing2.jpeg)] bg-cover bg-center ">
                     <div className="backdrop-blur-xs bg-blue-600/2">
                         <div className="px-4 relative">
                             <img className="
