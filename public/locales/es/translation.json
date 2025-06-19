@@ -235,5 +235,12 @@
    "testimonials":{
     "title":"Recomendaciones",
     "intro":"Conoce las historias de éxito de mis colaboradores y clientes."
+  },
+    "my-passions":{
+    "title":"Mis Pasiones",
+    "description": "Además de mi pasión por la programación, encuentro un equilibrio y un enriquecimiento personal en el arte de la pintura en acuarela y en el dinamismo del pádel, donde incluso tomé una certificación como entrenador y actualmente compito en 5ª categoría; estas experiencias, que me han dotado de habilidades en creatividad, paciencia, liderazgo y estrategia, dichas habilidades pueden ser de gran beneficio para actividades de integración de equipos.",
+    "my-padel-skils":{
+      "title":"Mis habilidades de padel"
+    }
   }
 }

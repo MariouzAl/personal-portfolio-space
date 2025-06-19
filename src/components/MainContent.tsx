@@ -3,6 +3,7 @@ import useScrollSpy from "../hooks/useScrollSpy";
 import ServicesSection from "../sections/ServicesSection";
 import { useLocation } from "react-router";
 import { useEffect } from "react";
+import PassionsSection from "@/sections/PassionsSection";
 
 const MainContent = ({ onSectionChange }: { onSectionChange: (section: string) => void }) => {
     const { sectionRefs } = useScrollSpy(onSectionChange);
@@ -27,7 +28,8 @@ const MainContent = ({ onSectionChange }: { onSectionChange: (section: string) =
             <ResumeSection ref={(el) => { sectionRefs.current["resume"] = el }} id="resume" />
             <PortfolioSection ref={(el) => { sectionRefs.current["portfolio"] = el }} id="portfolio" />
             <ServicesSection ref={(el) => { sectionRefs.current["services"] = el }} id="services" />
-            <TestimonialSection ref={(el) => { sectionRefs.current["services"] = el }} id="services"></TestimonialSection>   
+            <TestimonialSection ref={(el) => { sectionRefs.current["testimonial"] = el }} id="testimonial"></TestimonialSection>   
+            <PassionsSection ref={(el) => { sectionRefs.current["passions"] = el }} id="passions"></PassionsSection>
         </main>
     );
 };
