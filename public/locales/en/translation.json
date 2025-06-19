@@ -238,5 +238,12 @@
   "testimonials":{
     "title":"Testimonials",
     "intro":"Discover the success stories of my collaborators and clients."
+  },
+  "my-passions":{
+    "title":"My Passions",
+    "description": "Beyond my passion for programming, I find balance and personal enrichment in the art of watercolor painting and the dynamism of Padel. I even obtained a coaching certification and currently compete in the 5th category. These experiences have equipped me with skills in creativity, patience, leadership, and strategy, which can be highly beneficial for team integration activities.",
+    "my-padel-skils":{
+      "title":"My padel skills"
+    }
   }
 }
