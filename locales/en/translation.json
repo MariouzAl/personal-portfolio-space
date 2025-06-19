@@ -1,0 +1,249 @@
+{
+  "nav_menu": {
+    "home": "Home",
+    "about": "About",
+    "resume": "Resume",
+    "portfolio": "Portfolio",
+    "services": "Services",
+    "passions": "Passions",
+    "contact": "Contact"
+  },
+  "whatAmI": {
+    "i_am": "I'm a ",
+    "software_eng": "Software Engineer⚙️",
+    "developer": "Developer⌨️",
+    "fullstack_developer": "Fullstack Developer⌨️",
+    "frontend_developer": "Frontend Developer⌨️",
+    "watercolor_artist": "Watercolor Artist🎨",
+    "padel_coach": "Padel Coach🎾",
+    "karaoke_singer": "Karaoke Singer🎤"
+  },
+  "about": {
+    "description": "I am a software engineer with over 10 years of experience in web development. I have a strong background in JavaScript, TypeScript, and various frameworks such as React and Angular.  I'm passionate about building scalable and maintainable applications I like to imagine and creating proposals for different projects. I started as a young Freelance Developer and later evolved into a young entrepreneur leading my own development team, working mostly for a International Logistics and Trade Company based on Veracruz city, called Grupo CICE, as one of their main mobile develpment providers.  In a not so long future I want to become a Software Architech",
+    "subtitle": "Fullstack JS Developer / Watercolor artist / Padel trainer",
+    "description2": "I'm a fullstack software engineer with over 10 years of experience in building robust and scalable solutions using JavaScript and TypeScript. My expertise spans from developing interactive frontends with React and Angular to implementing efficient APIs with Node.js and Express, as well as managing SQL and NoSQL databases. Passionate about software architecture and system optimization, I'm dedicated to transforming complex concepts into efficient, high-performance digital products. My holistic vision, also cultivated through my role as a watercolor artist and padel coach, allows me to approach challenges with creativity and a solid strategy.",
+    "description3": "My professional journey has focused on developing complex and mission-critical systems, always with a strong foundation in object-oriented programming to ensure code maintainability and scalability. While my primary strength lies in development, my growing interest in software architecture drives me to design systems from a comprehensive perspective, considering scalability, security, and efficiency from conception. I possess knowledge of cloud services and am actively deepening my understanding of serverless architectures and cloud design patterns to lead larger-scale projects.",
+    "heres_some_facts": "Here's some facts about me:"
+  },
+  "readMore": "Read more...",
+  "resume": {
+    "download_resume": "Download my resume",
+    "title": "Resume",
+    "description": "For a detailed overview of my professional trajectory and academic achievements, please refer to the comprehensive resume section below. This outlines my journey through key roles, significant projects, and educational milestones that have shaped my expertise."
+  },
+  "months": "months",
+  "years": "years",
+  "engineer": "Engineer",
+  "stats": {
+    "happy_clients": {
+      "title": "Happy Clients",
+      "subtext": "and counting.."
+    },
+    "projects": {
+      "title": "Projects",
+      "subtext": "innovative and efficient"
+    },
+    "hours_of_support": {
+      "title": "Hours of Support",
+      "subtext": "dedicated to our clients"
+    },
+    "hard_workers": {
+      "title": "Hard Workers",
+      "subtext": "whom I guided and developed"
+    }
+  },
+  "skills": {
+    "title": "Skills",
+    "description": "With a solid foundation in web development, my skills are focused on building comprehensive and efficient digital solutions. Below, I present a breakdown of my core technical proficiencies, spanning from creating interactive user interfaces to managing server-side logic and database manipulation, utilizing the industry's most relevant technologies."
+  },
+  "education": {
+    "title": "Bachelor of engineering in computer engineering",
+    "description": "My academic journey at the Veracruz Institute of Technology (2005-2009) was marked by outstanding performance, graduating with an average of 97.3. Beyond the classroom, my commitment extended to active leadership, serving as Vice President in prestigious technical chapters like IEEE and ACM. This experience culminated in the co-organization of the International Congress on Information Technologies and Robotics (CITIR 2009), an event that solidified my skills in large-scale project management and collaboration."
+  },
+  "portfolio": {
+    "viewMoreInfo": "View More Info",
+    "viewProject": "View Project",
+    "title": "Portfolio",
+    "description": "Explore my professional portfolio below, showcasing a selection of projects that highlight my technical skills and passion for creating impactful digital solutions.",
+    "categories": {
+      "all": "All",
+      "apps": "Apps",
+      "web": "Web",
+      "projects": "Projects",
+      "branding": "Branding"
+    },
+    "projects": {
+      "no-items": "No items found",
+      "mobile-app-combustibles": {
+        "project": "Mobile app: Fuel Dispatch",
+        "shortDescription": "A mobile application for Android devices, built using the Adobe AIR platform, designed to register fuel dispatches."
+      },
+      "mobile-app-tarjado": {
+        "project": "Vessel Tallying Mobile Application",
+        "shortDescription": "The Vessel Tallying Application was designed to replace the old Tallying system used at GRUPO CICE."
+      },
+      "web-app-inidetam": {
+        "project": "Web app: INIDETAM",
+        "shortDescription": "A web application for managing the operations of INIDETAM, built with Angular and Node.js, focusing on user experience and performance."
+      },
+      "mobile-app-resumen-op": {
+        "project": "Operations Summary Mobile Application",
+        "shortDescription": "The Operations Summary Application was designed to provide an instant service for secure and efficient operations reporting."
+      },
+      "app-rec-aduanero": {
+        "project": "Customs Recognition Tallying Application",
+        "shortDescription": "The Customs Recognition Tallying Application aims to record customs recognition service requests and register the execution of these services."
+      },
+      "app-doc-approval": {
+        "project": "Document Approval Mobile App",
+        "shortDescription": "The Document Approval Mobile App was designed to facilitate document approval from mobile devices."
+      },
+      "app-contenedores": {
+        "project": "Container Approval Web App",
+        "shortDescription": "The Container Approval Web App was designed to facilitate container approval from mobile devices."
+      },
+      "app-live-in-tour": {
+        "project": "Live In Tour (Android)",
+        "shortDescription": "The LiveIntour application utilizes the Android SDK and Metaio SDK to achieve Augmented Reality and geolocation functionality on mobile devices."
+      },
+      "app-echocalc": {
+        "project": "Echocalc (Android)",
+        "shortDescription": "Implementing a calculator application for various health operations. Utilizing a code base implemented in HTML."
+      },
+      "app-hectorizate": {
+        "project": "Hectorizate (Android)",
+        "shortDescription": "Application with Augmented Reality for public figure."
+      },
+      "web-dictamen": {
+        "project": "El Dictamen Portal (Web)",
+        "shortDescription": "Redesign of the El Dictamen website's style."
+      },
+      "cesisccam": {
+        "project": "CESISCCAM",
+        "shortDescription": "A set of simulation systems and support systems that allow naval personnel to train in two main areas: Operation Training and Maintenance Training, for the SEMAR Command and Control systems."
+      },
+      "cbt": {
+        "project": "Cbt Nuggets (Web)",
+        "shortDescription": "Online IT training platform offering a vast library of concise and engaging video courses led by expert instructors. It focuses on practical skills and certifications across various IT domains."
+      },
+      "amps": {
+        "project": "Amps",
+        "shortDescription": "Healthcare cost reduction for self-funded organizations."
+      },
+      "nielsen": {
+        "project": "Nielsen",
+        "shortDescription": "Data analysis and audience measurement platform that provides insights into consumer behavior and media performance."
+      },
+      "centene": {
+        "project": "Centene",
+        "shortDescription": "Platform for providing market research, data  analytics and insights to retailers and consumer packaged goods."
+      },
+      "soilstress": {
+        "project": "Soil Stress Calculator",
+        "shortDescription": "A desktop application designed to calculate soil stress based on various parameters."
+      }
+    }
+  },
+  "services": {
+    "title": "Services",
+    "description": "Focused on transforming ideas into robust digital solutions, I offer a range of web development services designed to meet the specific needs of your project. My expertise spans from conceptualization to deployment, ensuring efficient and high-quality results.",
+    "fullstack_development": {
+      "title": "Fullstack Development",
+      "description": "Custom web solution development, covering both the user interface (Frontend with React/Vite) and server-side logic (Backend with RESTful APIs and databases). Ideal for projects requiring robust end-to-end functionality."
+    },
+    "specialized_frontend_development": {
+      "title": "Specialized Frontend Development (Angular & React & TypeScript)",
+      "description": "Designing and building interactive, responsive, and optimized user interfaces, leveraging the latest versions of React and the robust type safety of TypeScript. Focused on exceptional user experience (UX) and visual performance."
+    },
+    "backend_api_design_and_implementation": {
+      "title": "Backend API Design & Implementation",
+      "description": "Developing server-side logic to power web applications, including the creation of secure and efficient RESTful APIs, along with the integration and management of various databases."
+    },
+    "web_application_maintenance_and_modernization": {
+      "title": "Web Application Maintenance & Modernization",
+      "description": "Providing updates and ongoing support for existing web applications, including migrating to newer technologies, code refactoring, and bug resolution to ensure optimal performance and long-term scalability."
+    },
+    "web_technical_consulting_and_architecture": {
+      "title": "Web Technical Consulting & Architecture",
+      "description": "Expert guidance on web development best practices, technology selection, software architecture design, and implementation strategies for web projects, helping to lay solid foundations from the outset."
+    },
+    "third_party_api_and_external_service_integration": {
+      "title": "Third-Party API & External Service Integration",
+      "description": "Connecting your application with diverse external platforms and services (e.g., payment gateways, social media APIs, mapping services, analytics tools) to extend its functionality and automate processes, ensuring seamless and secure communication."
+    }
+  },
+  "professional_experience": {
+    "title": "Professional Experience",
+    "3pg-senior-software-engineer": {
+      "position": "Senior Software Engineer",
+      "description": "Software Engineer at 3PillaGlobal",
+      "responsibilities": [
+        "Developed and maintained web applications using React and Node.js",
+        "Collaborated with cross-functional teams to define, design, and ship new features",
+        "Collaborated with cross-functional teams to deliver high-quality software solutions.",
+        "Participated in code reviews and contributed to team knowledge sharing"
+      ]
+    },
+    "tiempo-development-software-engineer": {
+      "position": "Software Engineer III , IV",
+      "description": "Software Engineer at Tiempo Development",
+      "responsibilities": [
+        "Developed and maintained web applications using React and Node.js",
+        "Developed and maintained web applications using Angular and Node.js",
+        "Collaborated with cross-functional teams to define, design, and ship new features",
+        "Participated in code reviews and contributed to team knowledge sharing"
+      ]
+    },
+    "inidetam": {
+      "position": "Software Engineer",
+      "description": "Software Engineer contractor at INIDETAM",
+      "responsibilities": [
+        "Developed and maintained web applications using Angular and Node.js",
+        "Collaborated with cross-functional teams to define, design, and ship new features",
+        "Participated in code reviews and contributed to team knowledge sharing",
+        "Mentored the development team in agile and scrum methodologies, fostering a culture of continuous improvement and collaboration",
+        "Mentored junior developers and interns and guided them in best practices"
+      ]
+    },
+    "pizzap": {
+      "position": "Software Engineer",
+      "description": "Software Engineer contractor at Pizzap",
+      "responsibilities": [
+        "Developed and maintained web applications using Angular and Node.js and Firebase",
+        "Collaborated with cross-functional teams to define, design, and ship new features",
+        "Leading the development of mobile apps and web apps",
+        "Participated in code reviews and contributed to team knowledge sharing"
+      ]
+    },
+    "ehecatl-software-services": {
+      "position": "Frontend and Mobile Developer",
+      "description": "Software Engineer contractor at Ehecatl Software Services",
+      "responsibilities": [
+        "Worked with the Development of an Augmented Reality app for the Android Platform named Live In tour, using the metaio framework",
+        "Development of a Wordpress theme template for “El Dictamen” newspaper."
+      ]
+    },
+    "neus-team-grupo-cice": {
+      "position": "Frontend and Mobile Developer",
+      "description": "Frontend and Mobile Developer at NEUS TEAM/Grupo CICE",
+      "responsibilities": [
+        "Developing mobile apps with Adobe Flex/Adobe Air consuming SOAP services built with Java",
+        "Development of a mobile app for the Android platform using Android SDK with Java",
+        "Development of a mobile app for the Android platform using Ionic and Cordova",
+        "Leading the development of mobile apps",
+        "Development SPA web app made with Angular"
+      ]
+    }
+  },
+  "testimonials":{
+    "title":"Testimonials",
+    "intro":"Discover the success stories of my collaborators and clients."
+  },
+  "my-passions":{
+    "title":"My Passions",
+    "description": "Beyond my passion for programming, I find balance and personal enrichment in the art of watercolor painting and the dynamism of Padel. I even obtained a coaching certification and currently compete in the 5th category. These experiences have equipped me with skills in creativity, patience, leadership, and strategy, which can be highly beneficial for team integration activities.",
+    "my-padel-skils":{
+      "title":"My padel skills"
+    }
+  }
+}
