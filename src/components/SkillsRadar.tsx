@@ -1,8 +1,9 @@
 import { PolarAngleAxis, PolarGrid, PolarRadiusAxis, Radar, RadarChart } from "recharts"
 import { ChartContainer, ChartTooltip, ChartTooltipContent, type ChartConfig } from "@/components/ui/chart";
+import type { SkillData } from "@/sections/PassionsSection";
 
 
-const SkillRadar = ({ className ,chartData}: { className: string, chartData:any[] }) => {
+const SkillRadar = ({ className ,chartData}: { className: string, chartData:SkillData[] }) => {
 
 
 

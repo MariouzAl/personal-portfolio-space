@@ -13,8 +13,8 @@ import { useEffect, useState } from "react"
 
 export function PortfolioCarrousel({ items, className }: { items: string[], className?: string }) {
     const [api, setApi] = useState<CarouselApi>()
-    const [current, setCurrent] = useState(0)
-    const [count, setCount] = useState(0)
+    const [, setCurrent] = useState(0)
+    const [, setCount] = useState(0)
 
     useEffect(() => {
         if (!api) {
@@ -27,7 +27,6 @@ export function PortfolioCarrousel({ items, className }: { items: string[], clas
         api.on("select", () => {
             setCurrent(api.selectedScrollSnap() + 1)
         })
-        current * count
     }, [api])
 
 

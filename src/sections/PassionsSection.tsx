@@ -5,10 +5,13 @@ import { forwardRef } from "react";
 import { useTranslation } from "react-i18next";
 
 
+export type SkillType="Volea"|"Bandeja"|"Globo"|"Smash"|"Defensa"|"Ataque"|"Magia"|"Fisico"|"Condición"|"Velocidad"|"Toque"|"Posicionamiento"|"Servicio"
+
+export type SkillData ={ skill:SkillType, value :number}
 
 const PassionsSection = forwardRef<HTMLElement, { id: string }>((props, ref) => {
 
-    const chartData = [
+    const chartData:SkillData[] = [
         { skill: "Volea", value: 63 },
         { skill: "Bandeja", value: 63 },
         { skill: "Globo", value: 45 },

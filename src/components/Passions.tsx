@@ -1,5 +1,6 @@
+import type { SkillData } from "@/sections/PassionsSection";
 
-const Passions = ({className, skills}:{className:string, skills:any[]}) => {
+const Passions = ({className, skills}:{className:string, skills:SkillData[]}) => {
 
     return (
         <div className={`flip-card w-64 h-80 perspective-1000 cursor-pointer ${className}`}>
@@ -19,14 +20,14 @@ const Passions = ({className, skills}:{className:string, skills:any[]}) => {
                 border-b border-solid border-[#724b00] pb-1.5 mb-1 mix-blend-hard-light
                 ">Mario Rivera</h2>
                             <div className="grid grid-cols-2 gap-x-3  w-4/5 mx-auto text-[13px] uppercase">
-                                <div><strong>{skills.find(val=>val.skill==="Volea").value}</strong> Vol</div>
-                                <div><strong>{skills.find(val=>val.skill==="Defensa").value}</strong> Def</div>
-                                <div><strong>{skills.find(val=>val.skill==="Bandeja").value}</strong> Ban</div>
-                                <div><strong>{skills.find(val=>val.skill==="Ataque").value}</strong> Ata</div>
-                                <div><strong>{skills.find(val=>val.skill==="Globo").value}</strong> Glo</div>
-                                <div><strong>{skills.find(val=>val.skill==="Magia").value}</strong> Mag</div>
-                                <div><strong>{skills.find(val=>val.skill==="Smash").value}</strong> Sma</div>
-                                <div><strong>{skills.find(val=>val.skill==="Fisico").value}</strong> Fis</div>
+                                <div><strong>{skills.find(val=>val.skill==="Volea")?.value}</strong> Vol</div>
+                                <div><strong>{skills.find(val=>val.skill==="Defensa")?.value}</strong> Def</div>
+                                <div><strong>{skills.find(val=>val.skill==="Bandeja")?.value}</strong> Ban</div>
+                                <div><strong>{skills.find(val=>val.skill==="Ataque")?.value}</strong> Ata</div>
+                                <div><strong>{skills.find(val=>val.skill==="Globo")?.value}</strong> Glo</div>
+                                <div><strong>{skills.find(val=>val.skill==="Magia")?.value}</strong> Mag</div>
+                                <div><strong>{skills.find(val=>val.skill==="Smash")?.value}</strong> Sma</div>
+                                <div><strong>{skills.find(val=>val.skill==="Fisico")?.value}</strong> Fis</div>
                             </div>
                         </div>
 
