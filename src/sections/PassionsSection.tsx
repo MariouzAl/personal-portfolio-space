@@ -57,7 +57,7 @@ const PassionsSection = forwardRef<HTMLElement, { id: string }>((props, ref) => 
         { skill: "Servicio", value: 45 },
     ]
 
-const chartData =chartDataBase.map((data,index,lista)=>{
+const chartData =chartDataBase.map((data,index)=>{
     return {...data,
         value: (parseInt(((chartDataGerry[index].value+chartDataYaros[index].value)/2).toFixed(0))),
         gerryValue : chartDataGerry[index].value, 
