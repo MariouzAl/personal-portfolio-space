@@ -11,7 +11,7 @@ export type SkillData ={ skill:SkillType, value :number}
 
 const PassionsSection = forwardRef<HTMLElement, { id: string }>((props, ref) => {
 
-    const chartData:SkillData[] = [
+    const chartDataBase:SkillData[] = [
         { skill: "Volea", value: 63 },
         { skill: "Bandeja", value: 63 },
         { skill: "Globo", value: 45 },
@@ -26,6 +26,43 @@ const PassionsSection = forwardRef<HTMLElement, { id: string }>((props, ref) => 
         { skill: "Posicionamiento", value: 40 },
         { skill: "Servicio", value: 70 },
     ]
+    const chartDataGerry:SkillData[] = [
+        { skill: "Volea", value: 70 },
+        { skill: "Bandeja", value: 70},
+        { skill: "Globo", value: 60},
+        { skill: "Smash", value: 60},
+        { skill: "Defensa", value: 90},
+        { skill: "Ataque", value: 70},
+        { skill: "Magia", value: 40 },
+        { skill: "Fisico", value: 70 },
+        { skill: "Condición", value: 60 },
+        { skill: "Velocidad", value: 80},
+        { skill: "Toque", value: 50 },
+        { skill: "Posicionamiento", value: 70},
+        { skill: "Servicio", value: 80 },
+    ]
+     const chartDataYaros:SkillData[] = [
+        { skill: "Volea", value: 60 },
+        { skill: "Bandeja", value: 70},
+        { skill: "Globo", value: 45},
+        { skill: "Smash", value: 68},
+        { skill: "Defensa", value: 80},
+        { skill: "Ataque", value: 65},
+        { skill: "Magia", value: 20 },
+        { skill: "Fisico", value: 80 },
+        { skill: "Condición", value: 80 },
+        { skill: "Velocidad", value: 80},
+        { skill: "Toque", value: 45 },
+        { skill: "Posicionamiento", value: 65},
+        { skill: "Servicio", value: 45 },
+    ]
+
+const chartData =chartDataBase.map((data,index,lista)=>{
+    return {...data,
+        value: (parseInt(((chartDataGerry[index].value+chartDataYaros[index].value)/2).toFixed(0))),
+        gerryValue : chartDataGerry[index].value, 
+        yarosValue : chartDataYaros[index].value}
+})
 
     const { t } = useTranslation();
 
@@ -96,36 +133,36 @@ const PassionsSection = forwardRef<HTMLElement, { id: string }>((props, ref) => 
                     <ul className="flex-1/2">
                         <li className="font-semibold">Posición: </li>
                         <ul className="  pl-6">
-                            <li><strong>REVÉS</strong> ocasionalmente <strong>DRIVE</strong></li>
+                            <li><strong>REVÉS</strong> ocasionalmente <strong>DRIVE</strong>.</li>
                         </ul>
                         <li className="font-semibold">Categoría: </li>
                         <ul className="  pl-6">
-                            <li>5ª Categoria</li>
+                            <li>5ª Categoria.</li>
                         </ul>
                         <li className="font-semibold">Tiro Favorito:</li>
                         <ul className="  pl-6">
-                            <li>La <strong>VIVORA</strong> al centro. </li>
+                            <li>La <strong>VIBORA</strong> al centro. </li>
                         </ul>
                         <li className="font-semibold">Mayor fortaleza:</li>
                         <ul className="  pl-6">
-                            <li>Mi potencia y velocidad de piernas</li>
+                            <li>Mi potencia y velocidad de piernas.</li>
                         </ul>
-                        <li className="font-semibold">Jugador(es) profesional(es) al que admiro</li>
+                        <li className="font-semibold">Jugadores profesionales a los que admiro:</li>
                         <ul className="  pl-6">
-                            <li>Federico Chingotto y Alejandro Galán</li>
+                            <li>Federico Chingotto y Alejandro Galán.</li>
                         </ul>
 
                     </ul>
 
 
                     <ul className="flex-1/2">
-                        <li className="font-semibold">Máximo Logro</li>
+                        <li className="font-semibold">Máximo Logro:</li>
                         <ul className="  pl-6">
-                            <li>2 veces finalista de 5ª categoria en torneos locales</li>
+                            <li>2 veces finalista de 5ª categoria en torneos locales.</li>
                         </ul>
-                        <li className="font-semibold">Club en el que juego</li>
+                        <li className="font-semibold">Club en el que juego:</li>
                         <ul className="  pl-6">
-                            <li>X3 Padel Club</li>
+                            <li>X3 Padel Club.</li>
                         </ul>
                         <li className="font-semibold">Mi top 3 de Palas:</li>
                         <ol className=" list-decimal pl-10">
@@ -135,7 +172,7 @@ const PassionsSection = forwardRef<HTMLElement, { id: string }>((props, ref) => 
                         </ol>
                         <li className="font-semibold">¿Das clases?</li>
                         <ul className="  pl-6">
-                            <li>Estoy pensando en armar un grupo</li>
+                            <li>Estoy armando un grupo</li>
                         </ul>
                     </ul>
 
