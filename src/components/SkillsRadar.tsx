@@ -12,9 +12,17 @@ const SkillRadar = ({ className ,chartData}: { className: string, chartData:Skil
             label: "skill",
             color: "var(--color-cyan-500)",
         },
+        gerryValue: {
+            label: "Gerry Skill",
+            color: "var(--color-amber-500)",
+        },
+        yarosValue: {
+            label: "Yaros Skill",
+            color: "var(--color-blue-900)",
+        },
     } satisfies ChartConfig
 
-
+console.log(chartData)
 
     return (
         <div className={`${className}`}>
@@ -36,6 +44,16 @@ const SkillRadar = ({ className ,chartData}: { className: string, chartData:Skil
                         tick={{ fill: 'grey', fontSize: 10 }} // Estilo de los números del eje
                     />
                     <PolarGrid />
+                  {/*   <Radar
+                        dataKey="gerryValue"
+                        fill="var(--color-gerryValue)"
+                        fillOpacity={0.4}
+                    />
+                    <Radar
+                        dataKey="yarosValue"
+                        fill="var(--color-yarosValue)"
+                        fillOpacity={0.4}
+                    /> */}
                     <Radar
                         dataKey="value"
                         fill="var(--color-skill)"

@@ -2,11 +2,9 @@ import SocialLinkButton, { type SocialNetworkType }  from "./SocialLinkButton";
 
 
 const socialLinks:Array<{socialNetwork:SocialNetworkType, linkTo:string}> =[
-    {socialNetwork: "twitter-x", linkTo: "https://twitter.com/"},
-    {socialNetwork: "facebook", linkTo: "https://facebook.com/"},
-    {socialNetwork: "skype", linkTo: "https://skype.com/"},
-    {socialNetwork: "instagram", linkTo: "https://instagram.com/"},
-    {socialNetwork: "linkedin", linkTo: "https://linkedin.com/"},
+    {socialNetwork: "facebook", linkTo: "https://www.facebook.com/mriveradominguez1"},
+    {socialNetwork: "instagram", linkTo: "https://www.instagram.com/marioalbertoriveradominguez/"},
+    {socialNetwork: "linkedin", linkTo: "https://www.linkedin.com/in/mario-alberto-rivera-dominguez-94969726"},
 ]
 
 const SocialLinks = () => {
