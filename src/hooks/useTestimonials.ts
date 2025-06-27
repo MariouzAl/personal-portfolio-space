@@ -58,6 +58,14 @@ const testimonialsDTO: Testimonial[] = [
     position: 'Profesor Titular "C" de Tiempo Completo, Facultad de Ingeniería, UNAM',
     comment: "Recomiendo a Mario Rivera Domínguez porque en los trabajos de colaboración en que le he pedido que nos ayude siempre lo ha hecho con gran calidad y dinamismo; posee cualidades que lo hacen una persona de gran valor, comprometido con el sentido de responsabilidad, y habilidades para trabajar en equipo",
   },
+  {
+    id: 7,
+    key: "mike-camarena",
+    who: "Mike Camarena",
+    image:"./testimonial/mike.png",
+    position: 'Software developer engineer in testing',
+    comment: "Tuve la oportunidad de trabajar con Mario en el proyecto de CBT Nuggets, donde destacó por su profesionalismo, rapidez para aprender y enfoque estratégico. Es una persona confiable, dedicada y con gran capacidad para resolver problemas. Además, su actitud amigable y colaborativa lo convierte en un excelente compañero de equipo.",
+  },
 ];
 
 
