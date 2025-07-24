@@ -148,7 +148,7 @@ export class AboutService {
       new SkillInfo("UML", 70, 2009),
       new SkillInfo("Design Patterns", 75, 2018),
       new SkillInfo("OOP", 90, 2018),
-      new SkillInfo("Python", 60, new Date(2025, 0, 1)),
+      new SkillInfo("Python", 60, 2020),
       new SkillInfo("Android Development", 50, 2015),
     ];
   }
