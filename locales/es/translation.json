@@ -1,0 +1,246 @@
+{
+  "nav_menu": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "resume": "Curriculum",
+    "portfolio": "Portafolio",
+    "services": "Servicios",
+    "passions": "Pasiones",
+    "contact": "Contacto"
+  },
+  "whatAmI": {
+    "i_am": "Soy un ",
+    "software_eng": "Ingeniero de Software⚙️",
+    "developer": "Desarrollador⌨️",
+    "fullstack_developer": "Desarrollador Fullstack⌨️",
+    "frontend_developer": "Desarrollador Frontend⌨️",
+    "watercolor_artist": "Pintor de Acuarela🎨",
+    "padel_coach": "Entrenador de Padel🎾",
+    "karaoke_singer": "Cantante de Karaoke🎤"
+  },
+  "about": {
+    "description": "Soy ingeniero de software con más de 10 años de experiencia en desarrollo web. Cuento con una sólida base en JavaScript, TypeScript y diversos frameworks como React y Angular. Me apasiona construir aplicaciones escalables y mantenibles, y disfruto ideando y creando propuestas para diferentes proyectos. Comencé como un joven desarrollador freelance y luego evolucioné a un joven emprendedor liderando mi propio equipo de desarrollo, trabajando principalmente para una empresa internacional de logística y comercio con sede en la ciudad de Veracruz, llamada Grupo CICE, como uno de sus principales proveedores de desarrollo móvil. En un futuro no muy lejano, aspiro a convertirme en arquitecto de software.",
+    "subtitle": "Desarrollador Fullstack JS  / Pintor de Acuarela / Entrenador de Padel",
+    "description2": "Soy ingeniero de software fullstack con más de 10 años de experiencia en la creación de soluciones robustas y escalables usando JavaScript y TypeScript. Mi experiencia abarca desde el desarrollo de frontends interactivos con React y Angular hasta la implementación de APIs eficientes con Node.js y Express, así como la gestión de bases de datos SQL y NoSQL. Apasionado por la arquitectura de software y la optimización de sistemas, me dedico a transformar conceptos complejos en productos digitales eficientes y de alto rendimiento. Mi visión holística, también cultivada a través de mi rol como artista de acuarela y entrenador de pádel, me permite abordar los desafíos con creatividad y una estrategia sólida.",
+    "description3": "Mi trayectoria profesional se ha centrado en el desarrollo de sistemas complejos y críticos para la misión, siempre con una sólida base en la programación orientada a objetos para garantizar la mantenibilidad y escalabilidad del código. Si bien mi principal fortaleza radica en el desarrollo, mi creciente interés en la arquitectura de software me impulsa a diseñar sistemas desde una perspectiva integral, considerando la escalabilidad, la seguridad y la eficiencia desde la concepción. Poseo conocimientos sobre servicios en la nube y estoy profundizando activamente mi comprensión de las arquitecturas sin servidor y los patrones de diseño en la nube para liderar proyectos de mayor escala.",
+    "heres_some_facts": "Aquí hay algunos datos sobre mí:"
+  },
+  "readMore": "Quieres saber más...",
+  "resume": {
+    "download_resume": "Descarga mi currículum",
+    "title": "Curriculum",
+    "description": "Para obtener una visión detallada de mi trayectoria profesional y logros académicos, consulte la sección de currículum a continuación. Esto describe mi viaje a través de roles clave, proyectos significativos y hitos educativos que han dado forma a mi experiencia."
+  },
+  "months": "meses",
+  "years": "años",
+  "engineer": "Ingeniero",
+  "stats": {
+    "happy_clients": {
+      "title": "Clientes Felices",
+      "subtext": "y contando..."
+    },
+    "projects": {
+      "title": "Proyectos",
+      "subtext": "innovadores y eficientes"
+    },
+    "hours_of_support": {
+      "title": "Horas de Soporte",
+      "subtext": "dedicadas a nuestros clientes"
+    },
+    "hard_workers": {
+      "title": "Trabajadores a cargo",
+      "subtext": "a quienes guié y desarrollé"
+    }
+  },
+  "skills": {
+    "title": "Habilidades",
+    "description": "Con una sólida base en el desarrollo web, mis habilidades se centran en construir soluciones digitales completas y eficientes. A continuación, presento un desglose de mis competencias técnicas fundamentales, que abarcan desde la creación de interfaces de usuario interactivas hasta la gestión de la lógica del lado del servidor y la manipulación de bases de datos, utilizando las tecnologías más relevantes de la industria."
+  },
+  "education": {
+    "title": "Ingeniería en Sistemas Computacionales",
+    "description": "Mi trayectoria académica en el Instituto Tecnológico de Veracruz (2005-2009) se caracterizó por un rendimiento sobresaliente, graduándome con un promedio de 97.3. Más allá del aula, mi compromiso se extendió al liderazgo activo, sirviendo como Vicepresidente en capítulos técnicos de prestigio como IEEE y ACM. Esta experiencia culminó en la coorganización del Congreso Internacional de Tecnologías de la Información y Robótica (CITIR 2009), un evento que solidificó mis habilidades en la gestión de proyectos a gran escala y la colaboración."
+  },
+
+  "portfolio": {
+    "viewMoreInfo": "Ver más información",
+    "viewProject": "Ver proyecto",
+    "title": "Portafolio",
+    "description": "Explora mi portafolio profesional a continuación, donde se muestra una selección de proyectos que destacan mis habilidades técnicas y mi pasión por crear soluciones digitales impactantes.",
+    "categories": {
+      "all": "Todos",
+      "apps": "Aplicaciones",
+      "web": "Web",
+      "projects": "Proyectos",
+      "branding": "Branding"
+    },
+    "projects": {
+      "no-items": "No se encontraron elementos",
+      "mobile-app-combustibles": {
+        "project": "Mobile app : Despacho de combustible",
+        "shortDescription": "Aplicación para  dispositivos móviles (Android), en la plataforma Adobe AIR, para realizar  el registro de los despachos de combustibles ."
+      },
+      "mobile-app-tarjado": {
+        "project": "Aplicación de Tarjado de Buques para Dispositivos Móviles",
+        "shortDescription": "La Aplicación de Tarjado de Buques fue diseñada para remplazar al sistema antiguo de Tarjado utilizado en GRUPO CICE."
+      },
+      "mobile-app-resumen-op": {
+        "project": "Resumen de operaciones para dispositivos móviles",
+        "shortDescription": "La Aplicación de Resumen de Operaciones ha sido diseñada con la finalidad de ofrecer un servicio instantáneo de reportes de operaciones de forma segura y eficiente."
+      },
+      "app-rec-aduanero": {
+        "project": "Aplicacion de Tarjado de reconocimiento de aduanero",
+        "shortDescription": "La Aplicación Tarjado de Reconocimiento Aduanero cumple con el objetivo de poder levantar los pedimentos de servicios de Reconocimiento Aduanero y registrar la ejecución de dichos servicios."
+      },
+      "app-doc-approval": {
+        "project": "App Móvil Aprobación de Documentos",
+        "shortDescription": "La Aplicación móvil de Aprobación de Documentos fue diseñada para facilitar la aprobación de documentos desde dispositivos móviles"
+      },
+      "app-contenedores": {
+        "project": "App Web de Aprobación de Contenedores",
+        "shortDescription": "La Aplicación móvil de Aprobación de Contenedores fue diseñada para facilitar la aprobación de contenedores desde dispositivos móviles."
+      },
+      "app-live-in-tour": {
+        "project": "Live In Tour (Android)",
+        "shortDescription": "La aplicación LiveIntour hace uso del Sdk de android y del SDK Metaio para lograr la funcionalidad de Realidad Aumentada y geolocalizacion en dispositivos móviles."
+      },
+      "app-echocalc": {
+        "project": "Echocalc (Android)",
+        "shortDescription": "Implementar una aplicación de Calculadora para diferentes operaciones de salud. Utilizando un código base implementado en HTML"
+      },
+      "app-hectorizate": {
+        "project": "Hectorizate (Android)",
+        "shortDescription": " Aplicacion con Realidad Aumentada para figura pública."
+      },
+      "web-dictamen": {
+        "project": "Portal de El Dictamen (Web)",
+        "shortDescription": "Renovacion del estilo del sitio web El Dictamen"
+      },
+      "cesisccam": {
+        "project": "CESISCCAM",
+        "shortDescription": "Conjunto de sistemas de simulación y sistemas de apoyo a la simulación, que permitiren al personal naval entrenarse en dos áreas principales, Entrenamiento de Operación y Entrenamiento de Mantenimiento, de los sistemas de Mando y Control de la SEMAR."
+      },
+      "cbt": {
+        "project": "Cbt Nuggets (Web)",
+        "shortDescription": "Plataforma de formación de TI en línea que ofrece una amplia biblioteca de cursos en video concisos y atractivos, impartidos por instructores expertos. Se centra en habilidades prácticas y certificaciones en varios dominios de TI."
+      },
+      "amps": {
+        "project": "Amps",
+        "shortDescription": "Reducción de costos de atención médica para organizaciones autofinanciadas."
+      },
+      "nielsen": {
+        "project": "Nielsen",
+        "shortDescription": "Plataforma de análisis de datos y medición de audiencia que proporciona información sobre el comportamiento del consumidor y el rendimiento de los medios."
+      },
+      "centene": {
+        "project": "Centene",
+        "shortDescription": "Plataforma para proporcionar investigación de mercado, análisis de datos e información (o 'conocimiento') a minoristas y empresas de productos de consumo envasados."
+      },
+      "soilstress": {
+        "project": "Calculadora de Esfuerzo del Suelo",
+        "shortDescription": "Una aplicación de escritorio diseñada para calcular el esfuerzo del suelo basándose en varios parámetros."
+      }
+    }
+  },
+  "services": {
+    "title": "Servicios",
+    "description": "Enfocado en transformar ideas en soluciones digitales robustas, ofrezco una gama de servicios de desarrollo web diseñados para satisfacer las necesidades específicas de su proyecto. Mi experiencia abarca desde la conceptualización hasta la implementación, asegurando resultados eficientes y de alta calidad.",
+    "fullstack_development": {
+      "title": "Desarrollo Fullstack",
+      "description": "Desarrollo de soluciones web personalizadas, cubriendo tanto la interfaz de usuario (Frontend con React/Vite) como la lógica del lado del servidor (Backend con APIs RESTful y bases de datos). Ideal para proyectos que requieren una funcionalidad robusta de extremo a extremo."
+    },
+    "specialized_frontend_development": {
+      "title": "Desarrollo Frontend Especializado (Angular & React & TypeScript)",
+      "description": "Diseño y construcción de interfaces de usuario interactivas, responsivas y optimizadas, aprovechando las últimas versiones de React y la sólida seguridad de tipos de TypeScript. Enfocado en una experiencia de usuario (UX) excepcional y un rendimiento visual."
+    },
+    "backend_api_design_and_implementation": {
+      "title": "Diseño e Implementación de API Backend",
+      "description": "Desarrollo de la lógica del lado del servidor para potenciar aplicaciones web, incluida la creación de APIs RESTful seguras y eficientes, junto con la integración y gestión de diversas bases de datos."
+    },
+    "web_application_maintenance_and_modernization": {
+      "title": "Mantenimiento y Modernización de Aplicaciones Web",
+      "description": "Proporcionar actualizaciones y soporte continuo para aplicaciones web existentes, incluida la migración a tecnologías más nuevas, la refactorización de código y la resolución de errores para garantizar un rendimiento óptimo y una escalabilidad a largo plazo."
+    },
+    "web_technical_consulting_and_architecture": {
+      "title": "Consultoría y Arquitectura Técnica Web",
+      "description": "Orientación experta sobre las mejores prácticas de desarrollo web, selección de tecnologías, diseño de arquitectura de software y estrategias de implementación para proyectos web, ayudando a sentar bases sólidas desde el principio."
+    },
+    "third_party_api_and_external_service_integration": {
+      "title": "Integración de API de Terceros y Servicios Externos",
+      "description": "Conectar su aplicación con diversas plataformas y servicios externos (por ejemplo, pasarelas de pago, API de redes sociales, servicios de mapeo, herramientas de análisis) para extender su funcionalidad y automatizar procesos, asegurando una comunicación fluida y segura."
+    }
+  },
+  "professional_experience": {
+    "title": "Experiencia Profesional",
+    "3pg-senior-software-engineer": {
+      "position": "Ingeniero de Software Senior",
+      "description": "Ingeniero de Software en 3PillaGlobal",
+      "responsibilities": [
+        "Desarrollé y mantuve aplicaciones web utilizando React y Node.js",
+        "Colaboré con equipos multifuncionales para definir, diseñar y enviar nuevas funciones.",
+        "Colaboré con equipos multifuncionales para entregar soluciones de software de alta calidad.",
+        "Participé en revisiones de código y contribuyó al intercambio de conocimientos en el equipo."
+      ]
+    },
+    "tiempo-development-software-engineer": {
+      "position": "Ingeniero de Software Senior",
+      "description": "Ingeniero de Software III y IV en Tiempo Development",
+      "responsibilities": [
+        "Desarrollé y mantuve aplicaciones web utilizando React y Node.js",
+        "Desarrollé y mantuve aplicaciones web utilizando Angular y Node.js",
+        "Colaboré con equipos multifuncionales para definir, diseñar y enviar nuevas funciones.",
+        "Participé en revisiones de código y contribuyó al intercambio de conocimientos en el equipo."
+      ]
+    },
+    "inidetam": {
+      "position": "Ingeniero de Software",
+      "description": "Ingeniero de Software contratista en INIDETAM",
+      "responsibilities": [
+        "Desarrollé y mantuve aplicaciones web utilizando Angular y Node.js",
+        "Colaboré con equipos multifuncionales para definir, diseñar y enviar nuevas funciones",
+        "Participé en revisiones de código y contribuyó al intercambio de conocimientos en el equipo",
+        "Mentoré al equipo de desarrollo en metodologías ágiles y scrum, fomentando una cultura de mejora continua y colaboración",
+        "Mentoré a desarrolladores junior y pasantes, guiándolos en las mejores prácticas"
+      ]
+    },
+    "pizzap": {
+      "position": "Ingeniero de Software",
+      "description": "Ingeniero de Software contratista en Pizzap",
+      "responsibilities": [
+        "Desarrollé y mantuve aplicaciones web utilizando Angular y Node.js y Firebase",
+        "Colaboré con equipos multifuncionales para definir, diseñar y enviar nuevas funciones",
+        "Lideré el desarrollo de aplicaciones móviles y web",
+        "Participé en revisiones de código y contribuyó al intercambio de conocimientos en el equipo"
+      ]
+    },
+    "ehecatl-software-services": {
+      "position": "Desarrollador Frontend y Móvil",
+      "description": "Ingeniero de Software contratista en Ehecatl Software Services",
+      "responsibilities": [
+        "Trabajé en el desarrollo de una aplicación de realidad aumentada para la plataforma Android llamada Live In tour, utilizando el framework metaio",
+        "Desarrollo de una plantilla de tema de Wordpress para el periódico “El Dictamen”."
+      ]
+    },
+    "neus-team-grupo-cice": {
+      "position": "Desarrollador Frontend y Móvil",
+      "description": "Desarrollador Frontend y Móvil en NEUS TEAM/Grupo CICE",
+      "responsibilities": [
+        "Desarrollo de aplicaciones móviles con Adobe Flex/Adobe Air consumiendo servicios SOAP construidos con Java",
+        "Desarrollo de una aplicación móvil para la plataforma Android utilizando Android SDK con Java",
+        "Desarrollo de una aplicación móvil para la plataforma Android utilizando Ionic y Cordova",
+        "Liderando el desarrollo de aplicaciones móviles",
+        "Desarrollo de una aplicación web SPA hecha con Angular"
+      ]
+    }
+  },
+   "testimonials":{
+    "title":"Recomendaciones",
+    "intro":"Conoce las historias de éxito de mis colaboradores y clientes."
+  },
+    "my-passions":{
+    "title":"Mis Pasiones",
+    "description": "Además de mi pasión por la programación, encuentro un equilibrio y un enriquecimiento personal en el arte de la pintura en acuarela y en el dinamismo del pádel, donde incluso tomé una certificación como entrenador y actualmente compito en 5ª categoría; estas experiencias, que me han dotado de habilidades en creatividad, paciencia, liderazgo y estrategia, dichas habilidades pueden ser de gran beneficio para actividades de integración de equipos.",
+    "my-padel-skils":{
+      "title":"Mis habilidades de padel"
+    }
+  }
+}
